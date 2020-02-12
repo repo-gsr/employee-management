@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Application Checkout From Git') {
       steps {
-        git(url: 'https://github.com/repo-gsr/ShopingCart_MultiBranch_Pipeline.git', branch: 'master', changelog: true)
+        git(url: 'https://github.com/repo-gsr/employee-management.git', branch: 'master', changelog: true)
       }
     }
     stage('Application Build') {
