@@ -4,7 +4,7 @@ LABEL maintainer="subbareddygangalal@gmail.com"
 
 VOLUME /tmp
 
-ARG JAR_FILE=target/*.jar
+ARG JAR_FILE
 
 COPY ${JAR_FILE} employeeManagement.jar
 

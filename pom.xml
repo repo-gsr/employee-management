@@ -11,14 +11,15 @@
 	</parent>
 	<groupId>com.employeemngt</groupId>
 	<artifactId>employee-management</artifactId>
-	<!--<version>0.0.1-SNAPSHOT</version>-->
+	<!--<version>0.0.1-SNAPSHOT</version> -->
 	<version>${reversion}</version>
 	<name>employee-management</name>
 	<description>employee-management</description>
 
 	<properties>
 		<java.version>1.8</java.version>
-		<docker.image.prefix>qualcomm-ms-demandplanner</docker.image.prefix>
+		<docker.image.prefix>employee-management</docker.image.prefix>
+		<dockerfile-maven-version>1.4.13</dockerfile-maven-version>
 		<sonar.sources>src/main/java</sonar.sources>
 		<sonar.core.codeCoveragePlugin>jacoco</sonar.core.codeCoveragePlugin>
 		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
@@ -97,28 +98,28 @@
 					<destFile>${sonar.jacoco.reportPath}</destFile>
 				</configuration>
 			</plugin>
+
 			<plugin>
 				<groupId>com.spotify</groupId>
-				<artifactId>docker-maven-plugin</artifactId>
-				<version>0.4.11</version>
+				<artifactId>dockerfile-maven-plugin</artifactId>
+				<version>${dockerfile-maven-version}</version>
+				<executions>
+					<execution>
+						<id>default</id>
+						<goals>
+							<goal>build</goal>
+							<goal>push</goal>
+							<goal>tag</goal>
+						</goals>
+					</execution>
+				</executions>
 				<configuration>
-					<imageName>${docker.image.prefix}</imageName>
-					<baseImage>maven:3.5.4-jdk-8</baseImage>
-					<entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
-					<!-- copy the service's jar file from target into the root directory 
-						of the image -->
-					<resources>
-						<resource>
-							<targetPath>/</targetPath>
-							<directory>${project.build.directory}</directory>
-							<include>${project.build.finalName}.jar</include>
-						</resource>
-					</resources>
-					<imageTags>
-						<imageTag>${project.version}</imageTag>
-					</imageTags>
-					<!-- optionally overwrite tags every time image is built with docker:build -->
-					<forceTags>true</forceTags>
+					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
+					<repository>subbareddy1991/subbareddydocker_repo</repository>
+					<tag>${project.version}</tag>
+					<buildArgs>
+						<JAR_FILE>target/${project.artifactId}-${project.version}.jar</JAR_FILE>
+					</buildArgs>
 				</configuration>
 			</plugin>
 		</plugins>
