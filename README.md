@@ -21,9 +21,10 @@ For pushing Docker image to your private Dcoker repository you need to add crede
 
 Sample Setting.xml file.
 
+```
 <?xml version="1.0"?>
 
--<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/SETTINGS/1.0.0">
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/SETTINGS/1.0.0">
     -<servers>
           -<server>
           <id>docker.io</id>
@@ -32,7 +33,11 @@ Sample Setting.xml file.
           </server>
     </servers>
 </settings>
+```
 
 And also add following tag in pom.xml file dockerfile plugin.
 
+```
 <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
+
+```
