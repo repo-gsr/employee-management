@@ -25,8 +25,8 @@ Sample Setting.xml file.
 <?xml version="1.0"?>
 
 <settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/SETTINGS/1.0.0">
-    -<servers>
-          -<server>
+    <servers>
+          <server>
           <id>docker.io</id>
           <username>xxxxxxx</username>
           <password>xxxxxxx</password>
