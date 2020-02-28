@@ -23,13 +23,30 @@
 
 		<encoder
 			class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-			<Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+			<Pattern>%d{ISO8601} %-5level %t
+				%C{1.}: %msg%n</Pattern>
 		</encoder>
 	</appender>
 
-	<!-- LOG "com.baeldung*" at TRACE level -->
-	<!-- <logger name="com.baeldung" level="trace" additivity="false"> <appender-ref 
-		ref="RollingFile" /> <appender-ref ref="Console" /> </logger> -->
+
+	<logger name="com.employeemngt" level="trace" additivity="false">
+		<appender-ref ref="RollingFile" />
+		<appender-ref ref="Console" />
+	</logger>
+
+	<!-- Specify logging levels -->
+	<logger name="org.springframework" level="warn" />
+	<logger name="org.hibernate" level="warn" />
+	<logger name="org.hibernate.SQL" level="warn" />
+	<logger name="springfox" level="warn" />
+	<logger name="org.apache" level="warn" />
+	<logger name="org.apache.catalina" level="warn" />
+	<logger name="org.springframework">
+		<level value="warn" />
+	</logger>
+	<logger name="org.apache.tomcat">
+		<level value="WARN" />
+	</logger>
 
 	<!-- LOG everything at INFO level -->
 	<root level="info">

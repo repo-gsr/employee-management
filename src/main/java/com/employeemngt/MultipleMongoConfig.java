@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
+import com.employeemngt.util.CascadingMongoEventListener;
 import com.mongodb.MongoClient;
 
 @Configuration
@@ -34,5 +35,4 @@ public class MultipleMongoConfig {
 	public MongoDbFactory primaryFactory(final MongoProperties mongo) throws Exception {
 		return new SimpleMongoDbFactory(new MongoClient(mongo.getHost(), mongo.getPort()), mongo.getDatabase());
 	}
-
 }
