@@ -12,7 +12,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 public class EmployeeManagementApplication {
 	private static final Logger logger = LoggerFactory.getLogger(EmployeeManagementApplication.class);
 
