@@ -41,3 +41,9 @@ And also add following tag in pom.xml file dockerfile plugin.
 <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 
 ```
+
+Added Sonar Analysis Stage in jenkins file
+
+And also added CodeCovergae Report Plugin and that will show into Sonar DashBoard.
+
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=a7d10b41f3ddfb5b9fe32c3d69f9476ee82ae6b6
