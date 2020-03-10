@@ -3,7 +3,6 @@ package com.employeemngt.repository;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
-import com.employeemngt.model.Address;
 import com.employeemngt.model.AddressHistory;
 
 @Repository

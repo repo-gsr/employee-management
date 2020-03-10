@@ -11,14 +11,14 @@ public class AddressHistory {
 	private String zipCode;
 	private String city;
 	private String country;
-	private String add_type;
+	private String addType;
 
-	public String getAdd_type() {
-		return add_type;
+	public String getAddType() {
+		return addType;
 	}
 
-	public void setAdd_type(String add_type) {
-		this.add_type = add_type;
+	public void setAddType(String addType) {
+		this.addType = addType;
 	}
 
 	public String getStreet() {

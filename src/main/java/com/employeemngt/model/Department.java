@@ -8,10 +8,14 @@ public class Department {
 	@Id
 	private String id;
 	private String name;
-	private String Description;
+	private String description;
 
 	public String getDescription() {
-		return Description;
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	public String getId() {
@@ -20,10 +24,6 @@ public class Department {
 
 	public void setId(String id) {
 		this.id = id;
-	}
-
-	public void setDescription(String description) {
-		Description = description;
 	}
 
 	public String getName() {

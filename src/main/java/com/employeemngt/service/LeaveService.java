@@ -8,7 +8,7 @@ public interface LeaveService {
 
 	public Leave addLeaves(Leave leaves);
 
-	public List<Leave> getLeaveByEmployeeId(String employee_id);
+	public List<Leave> getLeaveByEmployeeId(String employeeId);
 
 	public Leave editLeaveDetailsByEmployeeId(Leave leaves);
 

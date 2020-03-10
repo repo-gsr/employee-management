@@ -1,0 +1,810 @@
+2020-02-29 00:14:47,787 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 00:14:49,261 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 00:14:57,356 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 00:15:02,988 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 00:15:02,990 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 00:15:23,184 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 33.865 seconds (JVM running for 41.676)
+2020-02-29 00:15:23,186 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 00:15:29,653 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:29,749 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:29,751 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:29,762 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:29,763 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:29,764 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:30,563 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:30,565 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:30,692 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:30,717 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:30,801 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:30,804 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:30,835 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:30,881 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:31,116 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:31,116 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:31,119 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:35,112 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:15:51,499 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:16:27,164 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:16:27,165 INFO  http-nio-8081-exec-10
+				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
+2020-02-29 00:16:27,651 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:16,715 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 00:19:22,253 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 00:19:25,974 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 00:19:25,975 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 00:19:37,434 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 20.673 seconds (JVM running for 295.925)
+2020-02-29 00:19:37,434 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 00:19:40,132 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,184 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,185 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,190 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,190 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,192 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,824 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,828 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,851 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,870 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,956 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,964 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,986 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:40,997 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:41,159 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:41,159 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:41,161 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:42,931 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:19:45,602 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:20:45,201 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 00:20:50,775 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 00:20:55,657 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 00:20:55,658 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 00:21:07,169 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 21.903 seconds (JVM running for 385.66)
+2020-02-29 00:21:07,170 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 00:21:12,188 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:12,190 INFO  http-nio-8081-exec-1
+				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
+2020-02-29 00:21:18,342 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:18,477 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:18,480 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:18,488 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:18,512 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:18,515 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,203 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,208 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,222 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,234 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,311 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,314 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,418 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,429 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,647 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,649 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:19,649 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:21,639 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:21,811 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:21:23,354 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:26:26,959 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:26:27,014 INFO  http-nio-8081-exec-10
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-02-29 00:27:18,673 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:27:18,677 INFO  http-nio-8081-exec-3
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-02-29 00:28:17,675 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:28:17,678 INFO  http-nio-8081-exec-4
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-02-29 00:29:55,372 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:29:55,374 INFO  http-nio-8081-exec-6
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 00:37:46,509 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 00:37:47,318 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 00:37:57,032 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 00:38:04,074 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 00:38:04,076 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 00:38:21,987 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 34.645 seconds (JVM running for 39.732)
+2020-02-29 00:38:21,988 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 00:38:27,725 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:38:27,803 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 00:38:55,664 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:38:55,666 INFO  http-nio-8081-exec-2
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 00:40:00,183 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 00:40:01,103 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 00:40:08,782 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 00:40:15,212 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 00:40:15,215 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 00:40:35,758 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 34.614 seconds (JVM running for 40.234)
+2020-02-29 00:40:35,758 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 00:40:44,055 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 00:40:44,145 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 08:56:22,266 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 08:56:23,895 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 08:56:32,646 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 08:56:40,114 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 08:56:40,115 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 09:02:19,732 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 09:02:20,651 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 09:02:28,289 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 09:02:34,019 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 09:02:34,021 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 09:02:54,807 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 34.123 seconds (JVM running for 40.037)
+2020-02-29 09:02:54,808 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 09:03:17,700 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 09:03:17,779 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 09:07:21,068 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 09:07:27,786 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 09:07:32,120 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 09:07:32,122 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 09:18:26,170 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 09:18:32,069 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 09:18:36,399 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 09:18:36,402 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 09:21:09,043 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 09:21:14,930 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 09:21:19,234 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 09:21:19,238 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 09:21:30,072 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 20.942 seconds (JVM running for 1155.301)
+2020-02-29 09:21:30,072 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 09:26:18,150 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 09:26:23,786 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 09:26:27,988 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 09:26:27,989 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 09:26:39,057 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 20.86 seconds (JVM running for 1464.286)
+2020-02-29 09:26:39,057 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 09:47:10,482 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 09:47:15,649 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 09:47:19,282 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 09:47:19,284 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 09:47:29,553 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 19.021 seconds (JVM running for 2714.781)
+2020-02-29 09:47:29,553 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 09:48:52,036 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 09:48:56,979 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 09:49:00,184 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 09:49:00,186 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 09:49:09,772 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 17.686 seconds (JVM running for 2814.999)
+2020-02-29 09:49:09,773 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 11:55:05,912 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 11:55:06,695 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 11:55:12,722 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 11:55:17,970 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 11:55:17,971 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 11:55:34,988 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 28.262 seconds (JVM running for 33.055)
+2020-02-29 11:55:34,989 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 11:56:19,170 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 11:56:19,235 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 11:56:48,974 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 11:56:48,985 INFO  http-nio-8081-exec-2
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-02-29 11:57:36,056 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 11:57:36,059 INFO  http-nio-8081-exec-3
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-02-29 11:58:16,020 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 11:58:16,023 INFO  http-nio-8081-exec-4
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 11:59:23,273 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 11:59:28,363 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 11:59:32,068 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 11:59:32,070 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 11:59:42,457 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 19.124 seconds (JVM running for 280.523)
+2020-02-29 11:59:42,457 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:02:30,640 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:02:35,653 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:02:39,372 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:02:39,373 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:02:49,549 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 18.848 seconds (JVM running for 467.616)
+2020-02-29 12:02:49,550 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:03:07,807 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:29,940 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,008 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,020 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,023 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,023 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,023 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,517 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,519 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,553 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,571 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,624 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,628 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,641 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,673 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,896 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,899 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:30,901 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:37,376 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:03:37,512 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:05:36,779 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:23,307 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-02-29 12:06:27,592 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:27,660 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:27,678 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:27,683 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:27,686 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:27,686 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,303 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,306 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,320 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,329 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,400 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,407 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,422 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,435 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,562 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,564 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,565 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:28,567 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:31,524 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:06:50,681 INFO  http-nio-8081-exec-8
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-02-29 12:07:18,360 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,402 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,409 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,409 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,409 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,410 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,909 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,911 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,924 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,936 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,994 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:18,997 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:19,013 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:19,027 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:19,116 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:19,117 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:19,119 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:07:21,046 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:07:26,122 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:07:29,941 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:07:29,945 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:07:40,412 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 19.309 seconds (JVM running for 758.479)
+2020-02-29 12:07:40,413 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:08:56,317 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:08:57,046 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:09:03,117 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:09:07,587 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:09:07,589 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:09:23,188 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 26.115 seconds (JVM running for 30.173)
+2020-02-29 12:09:23,188 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:09:33,712 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:09:33,775 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-02-29 12:09:33,933 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:15:56,302 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:15:56,305 INFO  http-nio-8081-exec-3
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 12:16:44,360 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:16:45,078 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:16:51,081 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:16:55,973 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:16:55,975 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:17:12,457 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 27.345 seconds (JVM running for 31.693)
+2020-02-29 12:17:12,457 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:17:21,615 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:21,689 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:21,691 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:21,698 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:21,698 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:21,702 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,312 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,314 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,386 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,404 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,470 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,475 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,487 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,544 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,745 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,747 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:22,748 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:23,644 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:23,807 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:49,643 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:17:49,687 INFO  http-nio-8081-exec-10
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 12:19:12,349 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:19:17,361 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:19:20,779 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:19:20,781 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:20:13,625 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:20:14,320 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:20:20,301 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:20:25,296 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:20:25,297 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:20:41,816 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 27.468 seconds (JVM running for 31.74)
+2020-02-29 12:20:41,817 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:20:53,120 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,180 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,187 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,190 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,192 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,195 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,790 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,795 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,873 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,888 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,945 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,948 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,962 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:53,991 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:54,252 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:54,254 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:54,255 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:54,256 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:20:56,090 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:21:02,916 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:21:02,963 INFO  http-nio-8081-exec-10
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 12:22:12,532 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:23:24,019 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:23:28,826 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:23:32,325 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:23:32,327 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:23:42,338 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 18.269 seconds (JVM running for 212.262)
+2020-02-29 12:23:42,338 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:23:44,833 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:23:44,841 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 12:26:43,045 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:26:47,858 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:26:51,330 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:26:51,331 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:27:01,305 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 18.216 seconds (JVM running for 411.23)
+2020-02-29 12:27:01,306 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:27:16,618 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:27:21,376 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:27:24,802 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:27:24,804 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:27:34,761 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 18.12 seconds (JVM running for 444.685)
+2020-02-29 12:27:34,761 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:28:18,636 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:28:18,640 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 12:29:38,149 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:29:42,965 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:29:46,363 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:29:46,364 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:29:56,222 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 18.025 seconds (JVM running for 586.146)
+2020-02-29 12:29:56,222 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:30:03,288 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:30:03,294 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-02-29 12:31:30,492 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:31:59,874 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:32:04,825 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:32:08,555 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:32:08,556 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:32:18,899 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 18.972 seconds (JVM running for 728.823)
+2020-02-29 12:32:18,899 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:33:20,648 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:33:25,586 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:33:28,993 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:33:28,994 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:33:38,920 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 18.224 seconds (JVM running for 808.845)
+2020-02-29 12:33:38,920 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:34:08,201 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:34:13,322 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:36:23,161 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:36:23,850 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:36:29,660 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:36:34,045 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:36:34,046 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:36:49,469 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 25.594 seconds (JVM running for 29.482)
+2020-02-29 12:36:49,469 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:36:55,289 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:41:28,048 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:41:33,206 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:41:36,695 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:41:36,697 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:41:47,087 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 18.984 seconds (JVM running for 327.101)
+2020-02-29 12:41:47,088 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:42:21,518 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-02-29 12:42:26,380 INFO  restartedMain
+				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2020-02-29 12:42:29,763 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-02-29 12:42:29,765 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-02-29 12:42:39,345 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 17.778 seconds (JVM running for 379.358)
+2020-02-29 12:42:39,346 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-02-29 12:43:26,551 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:26,600 INFO  http-nio-8081-exec-1
+				com.employeemngt.controller.LeaveController: update leave for employee ID : 5
+2020-02-29 12:43:50,008 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,062 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,064 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,072 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,074 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,074 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,618 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,620 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,654 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,674 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,739 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,741 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,758 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:50,786 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:51,009 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:51,011 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
+2020-02-29 12:43:51,012 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag

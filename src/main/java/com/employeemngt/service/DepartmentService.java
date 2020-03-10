@@ -8,11 +8,11 @@ public interface DepartmentService {
 
 	public Department addDepartment(Department department);
 
-	public Department getDepartmentById(String department_id);
+	public Department getDepartmentById(String departmentId);
 
 	public Department editDepartmentDetails(Department department);
 
-	public String deleteDepartmentByid(String department_id);
+	public String deleteDepartmentByid(String departmentId);
 
 	public List<Department> getAllDepartment();
 }

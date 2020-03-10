@@ -36,8 +36,8 @@ public class DepartmentServiceImpl implements DepartmentService {
 	}
 
 	@Override
-	public Department getDepartmentById(String department_id) {
-		return departmentrepository.findOne(department_id);
+	public Department getDepartmentById(String departmentId) {
+		return departmentrepository.findOne(departmentId);
 	}
 
 	@Override
@@ -49,8 +49,8 @@ public class DepartmentServiceImpl implements DepartmentService {
 	public String deleteDepartmentByid(String department_id) {
 		logger.info("Checking Requested Depart is Assigned to any employee");
 		Optional<Employee> employees = employeerepository.findAll().stream()
-				.filter((employee) -> employee.getDepartment().getId() == department_id).findAny();
-		if (employees != null) {
+				.filter((employee) -> employee.getDepartment().getId().equals(department_id)).findAny();
+		if (employees.isPresent()) {
 			return "Requested Department is assigned to some employees please remove those employees and delete departments..";
 		} else {
 			DepartmentHistory departmenthistory = new DozerBeanMapper().map(getDepartmentById(department_id),

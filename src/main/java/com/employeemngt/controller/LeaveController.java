@@ -23,7 +23,7 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping(value = "/leave")
-@Api(description = "Leave all Operation")
+@Api("Leave all Operation")
 public class LeaveController {
 
 	private final Logger logger = LoggerFactory.getLogger(LeaveController.class);
@@ -35,19 +35,19 @@ public class LeaveController {
 	@ApiOperation(value = "adding leaves to employee", notes = "adding leaves to employee")
 	public ResponseEntity<Leave> create(@RequestBody Leave leave, String employee_id) {
 		logger.info("adding leaves to eployee ");
-		return new ResponseEntity<Leave>((leaveService.addLeaves(leave)), HttpStatus.CREATED);
+		return new ResponseEntity<>((leaveService.addLeaves(leave)), HttpStatus.CREATED);
 	}
 
-	@GetMapping("/getLeaveBalenceByEmployeeId/{Employee_id}")
-	public ResponseEntity<List<Leave>> employeeById(@PathVariable("Employee_id") String Employee_id) {
-		return new ResponseEntity<List<Leave>>(leaveService.getLeaveByEmployeeId(Employee_id), HttpStatus.OK);
+	@GetMapping("/getLeaveBalenceByEmployeeId/{employeeId}")
+	public ResponseEntity<List<Leave>> employeeById(@PathVariable("employeeId") String employeeId) {
+		return new ResponseEntity<>(leaveService.getLeaveByEmployeeId(employeeId), HttpStatus.OK);
 	}
 
-	@PutMapping("/editLeaveBalenceByEmployeeId/{Employee_id}")
+	@PutMapping("/editLeaveBalenceByEmployeeId/{employeeId}")
 	public ResponseEntity<Leave> editLeaveBalenceByEmployeeId(@RequestBody Leave leave,
-			@PathVariable(value = "Employee_id", required = false) String Employee_id) {
-		logger.info("update leave for employee ID : " + Employee_id);
-		return new ResponseEntity<Leave>(leaveService.editLeaveDetailsByEmployeeId(leave), HttpStatus.CREATED);
+			@PathVariable(value = "Employee_id", required = false) String employeeId) {
+		logger.info("update leave for employee ID : %S",employeeId);
+		return new ResponseEntity<>(leaveService.editLeaveDetailsByEmployeeId(leave), HttpStatus.CREATED);
 	}
 
 	@PostMapping("/applyLeavesByEmployeeId")
@@ -55,7 +55,7 @@ public class LeaveController {
 	public ResponseEntity<Leave> applyLeavesByEmployeeId(@RequestBody Leave leave) {
 		logger.info("employee applying leaves ");
 
-		return new ResponseEntity<Leave>(leaveService.applyLeavesByEmployeeId(leave), HttpStatus.CREATED);
+		return new ResponseEntity<>(leaveService.applyLeavesByEmployeeId(leave), HttpStatus.CREATED);
 	}
 
 }

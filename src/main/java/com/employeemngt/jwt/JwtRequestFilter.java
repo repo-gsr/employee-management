@@ -22,7 +22,7 @@ import io.jsonwebtoken.ExpiredJwtException;
 
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {
-	private final Logger logger = LoggerFactory.getLogger(JwtRequestFilter.class);
+	public final Logger logger = LoggerFactory.getLogger(JwtRequestFilter.class);
 
 	@Autowired
 	private JwtUserDetailsService jwtUserDetailsService;
@@ -36,8 +36,8 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 	@Override
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
 			throws ServletException, IOException {
-		logger.info("Auth Flag", authFlag);
-		if (authFlag.equalsIgnoreCase("true")) {
+		logger.info("Auth Flag %S", authFlag);
+		if ("true".equalsIgnoreCase(authFlag)) {
 
 			final String requestTokenHeader = request.getHeader("Authorization");
 			final String cookiestoken = CookieUtil.getValue(request, "JWT-TOKEN");
@@ -51,9 +51,9 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 				try {
 					username = jwtTokenUtil.getUsernameFromToken(jwtToken);
 				} catch (IllegalArgumentException e) {
-					System.out.println("Unable to get JWT Token");
+					logger.info("Unable to get JWT Token", e);
 				} catch (ExpiredJwtException e) {
-					System.out.println("JWT Token has expired");
+					logger.info("JWT Token has expired", e);
 				}
 			} else {
 				logger.warn("JWT Token does not begin with Bearer String");
@@ -64,36 +64,40 @@ public class JwtRequestFilter extends OncePerRequestFilter {
 				try {
 					username = jwtTokenUtil.getUsernameFromToken(cookiestoken);
 				} catch (IllegalArgumentException e) {
-					System.out.println("Unable to get JWT Token");
+					logger.info("Unable to get JWT Token", e);
 				} catch (ExpiredJwtException e) {
-					System.out.println("JWT Token has expired");
+					logger.info("JWT Token has expired", e);
 				}
 			} else {
 				logger.warn("JWT Token is expaired");
 			}
 
-			// Once we get the token validate it.
-			if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
-
-				UserDetails userDetails = this.jwtUserDetailsService.loadUserByUsername(username);
-
-				// if token is valid configure Spring Security to manually set
-				// authentication
-				if (jwtTokenUtil.validateToken(jwtToken, userDetails)) {
-
-					UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(
-							userDetails, null, userDetails.getAuthorities());
-					usernamePasswordAuthenticationToken
-							.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-					// After setting the Authentication in the context, we specify
-					// that the current user is authenticated. So it passes the
-					// Spring Security Configurations successfully.
-					SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
-				}
-			}
+			validateTokenInfo(request, username, jwtToken);
 			chain.doFilter(request, response);
 		} else {
 			chain.doFilter(request, response);
+		}
+	}
+
+	public void validateTokenInfo(HttpServletRequest request, String username, String jwtToken) {
+		// Once we get the token validate it.
+		if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+
+			UserDetails userDetails = this.jwtUserDetailsService.loadUserByUsername(username);
+
+			// if token is valid configure Spring Security to manually set
+			// authentication
+			if (Boolean.TRUE.equals(jwtTokenUtil.validateToken(jwtToken, userDetails))) {
+
+				UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(
+						userDetails, null, userDetails.getAuthorities());
+				usernamePasswordAuthenticationToken
+						.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
+				// After setting the Authentication in the context, we specify
+				// that the current user is authenticated. So it passes the
+				// Spring Security Configurations successfully.
+				SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
+			}
 		}
 	}
 }

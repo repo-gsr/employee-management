@@ -24,25 +24,16 @@ public class LeaveServiceImpl implements LeaveService {
 	}
 
 	@Override
-	public List<Leave> getLeaveByEmployeeId(String employee_id) {
-		return leaverepository.findByLeaveEmployeeId(employee_id);
+	public List<Leave> getLeaveByEmployeeId(String employeeId) {
+		return leaverepository.findByLeaveEmployeeId(employeeId);
 	}
 
 	@Override
 	public Leave applyLeavesByEmployeeId(Leave leaves) {
+		logger.info("Applying Leaves..");
 		Leave leave = leaverepository.findByLeaveTypeAndLeaveEmployeeId(leaves.getLeaveType(),
 				leaves.getLeaveEmployeeId());
 		leaves.setLeaveId(leave.getLeaveId());
-		/*
-		 * leave.setDescription(leaves.getDescription());
-		 * leave.setLeaveFrom(leaves.getLeaveFrom());
-		 * leave.setLeaveTo(leaves.getLeaveTo());
-		 * leave.setLeaveType(leaves.getLeaveType());
-		 * leave.setLeavesBalence(leaves.getLeavesBalence());
-		 * leave.setLeavesTotal(leaves.getLeavesBalence());
-		 * leave.setLeavesUsed(leaves.getLeavesUsed());
-		 */
-
 		return leaverepository.save(leaves);
 	}
 

@@ -11,7 +11,7 @@ public class JwtRequest implements Serializable {
 
 	// need default constructor for JSON Parsing
 	public JwtRequest() {
-
+		throw new UnsupportedOperationException();
 	}
 
 	public JwtRequest(String username, String password) {

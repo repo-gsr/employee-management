@@ -25,7 +25,7 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping(value = "/department")
-@Api(description = "Department all Operation")
+@Api("Department all Operation")
 public class DepartmentController {
 
 	private final Logger logger = LoggerFactory.getLogger(DepartmentController.class);
@@ -40,25 +40,25 @@ public class DepartmentController {
 	@ApiOperation(value = "adding new department", notes = "adding new department", response = DepartmentController.class)
 	public ResponseEntity<Department> create(@RequestBody Department department) {
 		logger.info("adding employee data");
-		return new ResponseEntity<Department>((departmentservice.addDepartment(department)), HttpStatus.CREATED);
+		return new ResponseEntity<>((departmentservice.addDepartment(department)), HttpStatus.CREATED);
 	}
 
-	@GetMapping("/getDepartmentById/{Department_id}")
-	public ResponseEntity<Department> employeeById(@PathVariable("Department_id") String Department_id) {
-		return new ResponseEntity<Department>(departmentservice.getDepartmentById(Department_id), HttpStatus.OK);
+	@GetMapping("/getDepartmentById/{departmentId}")
+	public ResponseEntity<Department> employeeById(@PathVariable("departmentId") String departmentId) {
+		return new ResponseEntity<>(departmentservice.getDepartmentById(departmentId), HttpStatus.OK);
 	}
 
 	@GetMapping("/getAllDepartments")
 	public ResponseEntity<List<Department>> getAllDepartments() {
-		return new ResponseEntity<List<Department>>(departmentservice.getAllDepartment(), HttpStatus.OK);
+		return new ResponseEntity<>(departmentservice.getAllDepartment(), HttpStatus.OK);
 	}
 
 	@PutMapping("/updateDepartmentByID/{departmentID}")
 	public ResponseEntity<Department> updateEmployeeByID(@RequestBody Department department,
 			@PathVariable(value = "departmentID", required = false) String departmentID) {
-		logger.info("update employee by ID : " + departmentID);
+		logger.info("update employee by ID : %S", departmentID);
 		department.setId(departmentID);
-		return new ResponseEntity<Department>(departmentservice.editDepartmentDetails(department), HttpStatus.CREATED);
+		return new ResponseEntity<>(departmentservice.editDepartmentDetails(department), HttpStatus.CREATED);
 	}
 
 	@DeleteMapping("/deleteDepartmentByID/{departmentId}")
