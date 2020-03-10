@@ -44,7 +44,7 @@ public class DepartmentController {
 	}
 
 	@GetMapping("/getDepartmentById/{departmentId}")
-	public ResponseEntity<Department> employeeById(@PathVariable("departmentId") String departmentId) {
+	public ResponseEntity<Department> departmentById(@PathVariable("departmentId") String departmentId) {
 		return new ResponseEntity<>(departmentservice.getDepartmentById(departmentId), HttpStatus.OK);
 	}
 
@@ -54,7 +54,7 @@ public class DepartmentController {
 	}
 
 	@PutMapping("/updateDepartmentByID/{departmentID}")
-	public ResponseEntity<Department> updateEmployeeByID(@RequestBody Department department,
+	public ResponseEntity<Department> updateDepartmentByID(@RequestBody Department department,
 			@PathVariable(value = "departmentID", required = false) String departmentID) {
 		logger.info("update employee by ID : %S", departmentID);
 		department.setId(departmentID);
@@ -62,7 +62,7 @@ public class DepartmentController {
 	}
 
 	@DeleteMapping("/deleteDepartmentByID/{departmentId}")
-	public String deleteEmployeeByID(@PathVariable(value = "departmentId", required = true) String departmentId) {
+	public String deleteDepartmentByID(@PathVariable(value = "departmentId", required = true) String departmentId) {
 		return departmentservice.deleteDepartmentByid(departmentId);
 	}
 

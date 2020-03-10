@@ -1,5 +1,7 @@
 package com.employeemngt;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
@@ -26,6 +28,8 @@ import com.employeemngt.jwt.JwtUserDetailsService;
 @ConditionalOnProperty(name = "auth.flag", matchIfMissing = false)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
+	private static final Logger logger = LoggerFactory.getLogger(WebSecurityConfig.class);
+
 	@Autowired
 	private JwtAuthenticationEntryPoint jwtAuthenticationEntryPoint;
 
@@ -36,13 +40,16 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	private JwtRequestFilter jwtRequestFilter;
 
 	/*
-	 * configure AuthenticationManager so that it knows from where to load
-	 * user for matching credentials
-	 * Use BCryptPasswordEncoder
+	 * configure AuthenticationManager so that it knows from where to load user for
+	 * matching credentials Use BCryptPasswordEncoder
 	 */
 	@Autowired
-	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-		auth.userDetailsService(jwtUserDetailsService);
+	public void configureGlobal(AuthenticationManagerBuilder auth) {
+		try {
+			auth.userDetailsService(jwtUserDetailsService);
+		} catch (Exception e) {
+			logger.info("Credentials Are Not Matched", e);
+		}
 	}
 
 	@Bean

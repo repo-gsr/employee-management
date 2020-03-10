@@ -39,7 +39,7 @@ public class LeaveController {
 	}
 
 	@GetMapping("/getLeaveBalenceByEmployeeId/{employeeId}")
-	public ResponseEntity<List<Leave>> employeeById(@PathVariable("employeeId") String employeeId) {
+	public ResponseEntity<List<Leave>> getLeaveBalenceByEmployeeId(@PathVariable("employeeId") String employeeId) {
 		return new ResponseEntity<>(leaveService.getLeaveByEmployeeId(employeeId), HttpStatus.OK);
 	}
 

@@ -53,7 +53,7 @@ public class EmployeeController {
 	@PutMapping("/updateEmployeeByID/{employeeId}")
 	public ResponseEntity<Employee> updateEmployeeByID(@RequestBody Employee employee,
 			@PathVariable(value = "employeeId", required = false) String employeeId) {
-		logger.info("update employee by ID : %S",employeeId);
+		logger.info("update employee by ID : %s", employeeId);
 		employee.setId(employeeId);
 		return new ResponseEntity<>(employeeservice.editEmployeeDetails(employee), HttpStatus.CREATED);
 	}
@@ -67,11 +67,6 @@ public class EmployeeController {
 	public ResponseEntity<List<Employee>> addListOfEmployees(@RequestBody MultipartFile file)
 			throws IOException, ParseException {
 		return new ResponseEntity<>(employeeservice.addListOfEmployees(file), HttpStatus.CREATED);
-	}
-
-	@GetMapping("/Test")
-	public String employeeById() {
-		return "Test WithOut Security";
 	}
 
 }

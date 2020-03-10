@@ -1,134 +1,52 @@
-2020-03-06 11:37:53,263 INFO  main
-				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
-2020-03-06 11:37:54,047 INFO  restartedMain
-				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
-2020-03-06 11:37:54,407 INFO  restartedMain
-				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 36896 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
-2020-03-06 11:37:54,407 DEBUG restartedMain
-				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
-2020-03-06 11:37:54,408 INFO  restartedMain
-				org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
-2020-03-06 11:37:58,779 DEBUG localhost-startStop-1
-				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
-2020-03-06 11:37:58,780 DEBUG localhost-startStop-1
-				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
-2020-03-06 11:38:03,132 INFO  restartedMain
-				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 9.072 seconds (JVM running for 12.923)
-2020-03-06 11:38:03,133 INFO  restartedMain
-				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
-2020-03-06 11:39:08,789 INFO  http-nio-8081-exec-1
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:39:08,815 INFO  http-nio-8081-exec-1
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:51:59,462 INFO  http-nio-8081-exec-3
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:51:59,463 INFO  http-nio-8081-exec-3
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:54:57,468 INFO  http-nio-8081-exec-5
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:54:57,471 INFO  http-nio-8081-exec-5
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:55:00,855 INFO  http-nio-8081-exec-6
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:55:00,856 INFO  http-nio-8081-exec-6
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:56:17,352 INFO  http-nio-8081-exec-8
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:56:17,353 INFO  http-nio-8081-exec-8
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:56:36,531 INFO  http-nio-8081-exec-9
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:56:36,532 INFO  http-nio-8081-exec-9
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:56:56,215 INFO  http-nio-8081-exec-10
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:56:56,216 INFO  http-nio-8081-exec-10
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:57:31,028 INFO  http-nio-8081-exec-1
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:57:31,029 INFO  http-nio-8081-exec-1
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:57:56,783 INFO  http-nio-8081-exec-2
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:57:56,785 INFO  http-nio-8081-exec-2
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:58:16,425 INFO  http-nio-8081-exec-3
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:58:16,426 INFO  http-nio-8081-exec-3
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 11:59:17,909 INFO  http-nio-8081-exec-5
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 11:59:17,910 INFO  http-nio-8081-exec-5
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:00:38,617 INFO  http-nio-8081-exec-7
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:00:38,618 INFO  http-nio-8081-exec-7
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:00:55,296 INFO  http-nio-8081-exec-8
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:00:55,297 INFO  http-nio-8081-exec-8
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:13:46,606 INFO  http-nio-8081-exec-10
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:13:46,608 INFO  http-nio-8081-exec-10
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:15:00,335 INFO  http-nio-8081-exec-2
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:15:00,337 INFO  http-nio-8081-exec-2
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:15:16,018 INFO  http-nio-8081-exec-3
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:15:16,020 INFO  http-nio-8081-exec-3
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:15:29,184 INFO  http-nio-8081-exec-4
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:15:29,185 INFO  http-nio-8081-exec-4
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:16:27,413 INFO  http-nio-8081-exec-5
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:16:27,414 INFO  http-nio-8081-exec-5
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:38:08,166 INFO  http-nio-8081-exec-7
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:38:08,167 INFO  http-nio-8081-exec-7
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:42:46,681 INFO  http-nio-8081-exec-9
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:42:46,683 INFO  http-nio-8081-exec-9
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:43:23,291 INFO  http-nio-8081-exec-10
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:43:23,293 INFO  http-nio-8081-exec-10
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:43:27,767 INFO  http-nio-8081-exec-1
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:43:27,768 INFO  http-nio-8081-exec-1
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:44:41,923 INFO  http-nio-8081-exec-3
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:44:41,924 INFO  http-nio-8081-exec-3
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:45:23,969 INFO  http-nio-8081-exec-4
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:45:23,970 INFO  http-nio-8081-exec-4
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:45:44,939 INFO  http-nio-8081-exec-5
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:45:44,940 INFO  http-nio-8081-exec-5
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:46:10,730 INFO  http-nio-8081-exec-6
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:46:10,732 INFO  http-nio-8081-exec-6
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:46:27,945 INFO  http-nio-8081-exec-7
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:46:27,946 INFO  http-nio-8081-exec-7
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 12:46:50,662 INFO  http-nio-8081-exec-8
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 12:46:50,662 INFO  http-nio-8081-exec-8
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
-2020-03-06 13:50:00,615 INFO  http-nio-8081-exec-10
-				com.employeemngt.jwt.JwtRequestFilter: Auth Flag
-2020-03-06 13:50:00,624 INFO  http-nio-8081-exec-10
-				com.employeemngt.service.EmployeeServiceImpl: Fetching all employee
+2020-03-10 13:59:34,996 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:00:54,710 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:08:33,090 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:09:11,855 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:13:54,950 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:14:25,145 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:45:25,474 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : %S
+2020-03-10 14:45:25,491 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:57:04,966 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : %s
+2020-03-10 14:57:04,993 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 15:15:00,960 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : %S
+2020-03-10 15:15:00,973 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-10 15:16:43,516 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : %S
+2020-03-10 15:16:43,533 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-10 15:16:43,642 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : %s
+2020-03-10 15:16:43,665 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 15:40:57,273 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-10 15:40:57,302 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-10 15:40:57,311 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-03-10 15:41:49,334 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : %S
+2020-03-10 15:41:49,351 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-10 15:41:49,442 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : %s
+2020-03-10 15:41:49,459 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 15:41:49,492 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-10 15:41:49,499 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-10 15:41:49,507 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
