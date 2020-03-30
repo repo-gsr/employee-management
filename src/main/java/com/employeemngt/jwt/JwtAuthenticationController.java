@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.employeemngt.exception.UserAuthException;
-import com.employeemngt.model.RequestObject;
-import com.employeemngt.model.User;
 import com.employeemngt.util.ErrorCodes;
 
 @Controller
