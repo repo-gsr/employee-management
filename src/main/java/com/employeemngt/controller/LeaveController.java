@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.employeemngt.model.Leave;
-import com.employeemngt.service.LeaveServiceImpl;
+import com.employeemngt.service.impl.LeaveServiceImpl;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

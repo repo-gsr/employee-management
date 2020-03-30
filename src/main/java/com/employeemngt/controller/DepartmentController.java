@@ -17,8 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.employeemngt.model.Department;
-import com.employeemngt.service.DepartmentServiceImpl;
-import com.employeemngt.service.EmployeeServiceImpl;
+import com.employeemngt.model.RequestObject;
+import com.employeemngt.service.impl.DepartmentServiceImpl;
+import com.employeemngt.service.impl.EmployeeServiceImpl;
+import com.employeemngt.util.AbstractMapper;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -26,7 +28,7 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping(value = "/department")
 @Api("Department all Operation")
-public class DepartmentController {
+public class DepartmentController extends AbstractMapper {
 
 	private final Logger logger = LoggerFactory.getLogger(DepartmentController.class);
 
@@ -38,8 +40,9 @@ public class DepartmentController {
 
 	@PostMapping("/addDepartment")
 	@ApiOperation(value = "adding new department", notes = "adding new department", response = DepartmentController.class)
-	public ResponseEntity<Department> create(@RequestBody Department department) {
+	public ResponseEntity<Department> create(@RequestBody RequestObject requestObject) {
 		logger.info("adding employee data");
+		Department department = (Department) getParsedObject(requestObject.getRequestdata(), Department.class);
 		return new ResponseEntity<>((departmentservice.addDepartment(department)), HttpStatus.CREATED);
 	}
 
@@ -54,9 +57,12 @@ public class DepartmentController {
 	}
 
 	@PutMapping("/updateDepartmentByID/{departmentID}")
-	public ResponseEntity<Department> updateDepartmentByID(@RequestBody Department department,
+	public ResponseEntity<Department> updateDepartmentByID(@RequestBody RequestObject requestObject,
 			@PathVariable(value = "departmentID", required = false) String departmentID) {
-		logger.info("update employee by ID : %S", departmentID);
+
+		String loginfo = String.format("update employee by ID : %s", departmentID);
+		logger.info(loginfo);
+		Department department = (Department) getParsedObject(requestObject.getRequestdata(), Department.class);
 		department.setId(departmentID);
 		return new ResponseEntity<>(departmentservice.editDepartmentDetails(department), HttpStatus.CREATED);
 	}
@@ -65,10 +71,4 @@ public class DepartmentController {
 	public String deleteDepartmentByID(@PathVariable(value = "departmentId", required = true) String departmentId) {
 		return departmentservice.deleteDepartmentByid(departmentId);
 	}
-
-	@GetMapping("/Test")
-	public String employeeById() {
-		return "Test WithOut Security";
-	}
-
 }

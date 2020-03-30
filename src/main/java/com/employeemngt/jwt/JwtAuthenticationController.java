@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.employeemngt.exception.UserAuthException;
+import com.employeemngt.model.RequestObject;
+import com.employeemngt.model.User;
 import com.employeemngt.util.ErrorCodes;
 
 @Controller
@@ -73,4 +75,10 @@ public class JwtAuthenticationController {
 			throw new UserAuthException("INVALID_CREDENTIALS", e, ErrorCodes.NOT_AUTHORIZED);
 		}
 	}
+
+	/*@RequestMapping(value = "/signup", method = RequestMethod.POST)
+	public User create(@RequestBody RequestObject requestObject) {
+		
+		//return userService.save(user);
+	}*/
 }

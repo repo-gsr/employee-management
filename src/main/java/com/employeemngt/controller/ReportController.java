@@ -22,12 +22,13 @@ public class ReportController {
 	ReportService reportService;
 
 	@GetMapping(value = "/downloadReportInPdf", produces = "text/pdf")
-	public void downloadReportInExcel(HttpServletResponse response) {
+	public void downloadReportInPdf(HttpServletResponse response) {
 		reportService.downloadReportInPdf(response);
 	}
 
 	@GetMapping(value = "/downloadReportInExcel", produces = "text/pdf")
-	public void downloadReportInPdf() {
+	public void downloadReportInExcel(HttpServletResponse response) {
+		reportService.downloadReportInExcel(response);
 		logger.info("downloadReport In Excel");
 	}
 

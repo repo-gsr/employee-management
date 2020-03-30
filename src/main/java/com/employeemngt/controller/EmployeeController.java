@@ -19,14 +19,17 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.employeemngt.model.Employee;
-import com.employeemngt.service.EmployeeServiceImpl;
+import com.employeemngt.model.RequestObject;
+import com.employeemngt.service.impl.EmployeeServiceImpl;
+import com.employeemngt.util.AbstractMapper;
+
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping(value = "/employee")
 @Api("Employee all Operation")
-public class EmployeeController {
+public class EmployeeController extends AbstractMapper {
 
 	private final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 
@@ -35,7 +38,8 @@ public class EmployeeController {
 
 	@PostMapping("/addEmployee")
 	@ApiOperation(value = "adding new employee", notes = "adding new employee", response = EmployeeController.class)
-	public ResponseEntity<Employee> create(@RequestBody Employee employee) {
+	public ResponseEntity<Employee> create(@RequestBody RequestObject requestObject) {
+		Employee employee = (Employee) getParsedObject(requestObject.getRequestdata(), Employee.class);
 		logger.info("adding employee data");
 		return new ResponseEntity<>(employeeservice.addEmployee(employee), HttpStatus.CREATED);
 	}
@@ -51,9 +55,10 @@ public class EmployeeController {
 	}
 
 	@PutMapping("/updateEmployeeByID/{employeeId}")
-	public ResponseEntity<Employee> updateEmployeeByID(@RequestBody Employee employee,
+	public ResponseEntity<Employee> updateEmployeeByID(@RequestBody RequestObject requestObject,
 			@PathVariable(value = "employeeId", required = false) String employeeId) {
-		logger.info("update employee by ID : %s", employeeId);
+		Employee employee = (Employee) getParsedObject(requestObject.getRequestdata(), Employee.class);
+		logger.info(String.format("update employee by ID : %s", employeeId));
 		employee.setId(employeeId);
 		return new ResponseEntity<>(employeeservice.editEmployeeDetails(employee), HttpStatus.CREATED);
 	}

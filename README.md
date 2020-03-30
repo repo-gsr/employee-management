@@ -46,4 +46,14 @@ Added Sonar Analysis Stage in jenkins file
 
 And also added CodeCovergae Report Plugin and that will show into Sonar DashBoard.
 
-mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=a7d10b41f3ddfb5b9fe32c3d69f9476ee82ae6b6
+Run the Junit Test Coverage
+
+mvn test -Dreversion=2.0 -Dverbose=true
+
+mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=a7d10b41f3ddfb5b9fe32c3d69f9476ee82ae6b6 -Dreversion=2.0
+
+
+While writing Junit Test Case Don't need write Test case for priviate methods.
+
+Those are automatically call while testing normal public methods.
+ 

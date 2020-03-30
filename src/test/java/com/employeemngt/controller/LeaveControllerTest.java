@@ -17,10 +17,8 @@ import org.mockito.Mock;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.employeemngt.model.Department;
 import com.employeemngt.model.Leave;
-import com.employeemngt.service.DepartmentServiceImpl;
-import com.employeemngt.service.LeaveServiceImpl;
+import com.employeemngt.service.impl.LeaveServiceImpl;
 
 @RunWith(value = SpringJUnit4ClassRunner.class)
 public class LeaveControllerTest {
