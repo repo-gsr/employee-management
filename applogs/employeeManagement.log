@@ -774,3 +774,130 @@ java.lang.NullPointerException: null
 				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
 2020-03-30 16:43:10,808 INFO  http-nio-8081-exec-8
 				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:2, serverValue:22}] to localhost:27017
+2020-03-30 16:54:56,160 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 16:54:56,344 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 1684 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 16:54:56,344 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 16:54:56,345 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 16:54:59,163 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 16:54:59,165 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 16:54:59,203 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 16:54:59,209 INFO  cluster-ClusterId{value='5e81d70bad46760694abfc5a', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:3, serverValue:23}] to localhost:27017
+2020-03-30 16:54:59,210 INFO  cluster-ClusterId{value='5e81d70bad46760694abfc5a', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=832700}
+2020-03-30 16:55:00,301 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 4.106 seconds (JVM running for 814.089)
+2020-03-30 16:55:00,301 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 16:56:57,808 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 16:56:58,089 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 16:56:58,505 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 26964 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 16:56:58,505 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 16:56:58,505 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 16:57:02,280 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 16:57:02,281 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 16:57:04,283 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 16:57:04,350 INFO  cluster-ClusterId{value='5e81d788ad467669542b4b1c', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:1, serverValue:24}] to localhost:27017
+2020-03-30 16:57:04,353 INFO  cluster-ClusterId{value='5e81d788ad467669542b4b1c', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=788199}
+2020-03-30 16:57:06,081 WARN  restartedMain
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: Unable to start LiveReload server
+2020-03-30 16:57:06,392 ERROR restartedMain
+				org.apache.juli.logging.DirectJDKLog: Failed to start end point associated with ProtocolHandler ["http-nio-8081"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.employeemngt.EmployeeManagementApplication.main(EmployeeManagementApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2020-03-30 16:57:06,393 ERROR restartedMain
+				org.apache.juli.logging.DirectJDKLog: Failed to start connector [Connector[HTTP/1.1-8081]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8081]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.employeemngt.EmployeeManagementApplication.main(EmployeeManagementApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	... 19 common frames omitted
+2020-03-30 16:57:06,423 ERROR restartedMain
+				org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+

@@ -1,0 +1,150 @@
+2020-03-24 09:15:36,158 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 09:15:36,187 INFO  http-nio-8081-exec-8
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 09:27:49,450 INFO  cluster-ClusterId{value='5e785471a3d66f5860e9e96c', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 common frames omitted
+2020-03-24 09:27:50,265 INFO  cluster-ClusterId{value='5e7854f4a3d66f5860e9e96d', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 common frames omitted
+2020-03-24 11:19:11,989 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-03-24 11:19:12,621 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-24 11:19:12,737 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-03-24 11:19:12,766 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-24 11:19:12,799 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-24 11:19:12,804 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-24 11:19:12,812 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-03-24 11:20:43,999 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-03-24 11:20:44,532 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-24 11:20:44,633 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-03-24 11:20:44,672 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-24 11:20:44,700 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-24 11:20:44,704 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-24 11:20:44,711 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-03-24 11:22:16,840 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-03-24 11:22:17,338 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-24 11:22:17,448 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-03-24 11:22:17,476 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-24 11:22:17,508 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-24 11:22:17,513 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-24 11:22:17,520 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-03-24 12:12:28,442 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-24 12:12:28,757 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-24 12:12:29,223 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 20972 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-24 12:12:29,224 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-24 12:12:29,224 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-24 12:12:33,014 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-24 12:12:33,015 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-24 12:12:34,989 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-24 12:12:35,074 INFO  cluster-ClusterId{value='5e79abda9344f651ece155cb', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2020-03-24 12:12:35,077 INFO  cluster-ClusterId{value='5e79abda9344f651ece155cb', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=897300}
+2020-03-24 12:12:37,322 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 8.555 seconds (JVM running for 11.322)
+2020-03-24 12:12:37,323 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-24 12:12:41,646 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 12:12:41,662 INFO  http-nio-8081-exec-1
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 12:12:41,697 INFO  http-nio-8081-exec-1
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2020-03-24 12:13:34,728 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 12:13:34,730 INFO  http-nio-8081-exec-2
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 12:16:25,596 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 12:16:25,598 INFO  http-nio-8081-exec-4
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 12:18:00,490 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 12:18:00,495 INFO  http-nio-8081-exec-6
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 12:18:06,256 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 12:18:06,257 INFO  http-nio-8081-exec-7
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 12:18:40,204 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 12:18:40,205 INFO  http-nio-8081-exec-8
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 12:59:46,134 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 12:59:46,140 INFO  http-nio-8081-exec-10
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 13:01:32,018 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 13:01:32,019 INFO  http-nio-8081-exec-2
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 13:02:07,115 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 13:02:07,116 INFO  http-nio-8081-exec-3
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-24 15:34:31,553 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-24 15:34:31,562 INFO  http-nio-8081-exec-5
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee

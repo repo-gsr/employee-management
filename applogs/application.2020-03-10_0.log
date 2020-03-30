@@ -1,0 +1,52 @@
+2020-03-10 13:59:34,996 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:00:54,710 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:08:33,090 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:09:11,855 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:13:54,950 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:14:25,145 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:45:25,474 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : %S
+2020-03-10 14:45:25,491 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 14:57:04,966 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : %s
+2020-03-10 14:57:04,993 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 15:15:00,960 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : %S
+2020-03-10 15:15:00,973 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-10 15:16:43,516 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : %S
+2020-03-10 15:16:43,533 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-10 15:16:43,642 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : %s
+2020-03-10 15:16:43,665 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 15:40:57,273 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-10 15:40:57,302 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-10 15:40:57,311 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-03-10 15:41:49,334 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : %S
+2020-03-10 15:41:49,351 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-10 15:41:49,442 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : %s
+2020-03-10 15:41:49,459 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-10 15:41:49,492 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-10 15:41:49,499 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-10 15:41:49,507 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 

@@ -1,0 +1,158 @@
+2020-03-23 11:47:14,203 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-23 11:47:14,686 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-23 11:47:15,199 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 22624 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-23 11:47:15,200 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-23 11:47:15,200 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-23 11:47:19,660 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-23 11:47:19,661 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-23 11:47:21,762 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-23 11:47:21,853 INFO  cluster-ClusterId{value='5e785471a3d66f5860e9e96c', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2020-03-23 11:47:21,856 INFO  cluster-ClusterId{value='5e785471a3d66f5860e9e96c', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=980500}
+2020-03-23 11:47:24,782 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 10.085 seconds (JVM running for 13.652)
+2020-03-23 11:47:24,782 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-23 11:48:04,558 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 11:48:04,562 WARN  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: JWT Token does not begin with Bearer String
+2020-03-23 11:48:04,563 WARN  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: JWT Token is expaired
+2020-03-23 11:48:30,809 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 11:48:30,810 WARN  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: JWT Token does not begin with Bearer String
+2020-03-23 11:48:30,810 WARN  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: JWT Token is expaired
+2020-03-23 11:48:45,057 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 11:48:45,057 WARN  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: JWT Token does not begin with Bearer String
+2020-03-23 11:48:45,058 WARN  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: JWT Token is expaired
+2020-03-23 11:49:30,187 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-23 11:49:30,330 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 22624 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-23 11:49:30,330 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-23 11:49:30,331 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-23 11:49:32,890 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-23 11:49:32,891 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-23 11:49:32,924 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-23 11:49:32,930 INFO  cluster-ClusterId{value='5e7854f4a3d66f5860e9e96d', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2020-03-23 11:49:32,931 INFO  cluster-ClusterId{value='5e7854f4a3d66f5860e9e96d', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=619100}
+2020-03-23 11:49:33,728 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.513 seconds (JVM running for 142.609)
+2020-03-23 11:49:33,728 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-23 11:49:41,306 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 11:49:41,308 INFO  http-nio-8081-exec-1
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 11:49:41,376 INFO  http-nio-8081-exec-1
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:3, serverValue:3}] to localhost:27017
+2020-03-23 11:53:31,044 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 11:53:31,046 INFO  http-nio-8081-exec-3
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 13:23:26,152 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 13:23:26,173 INFO  http-nio-8081-exec-5
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:14:00,812 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:14:00,820 INFO  http-nio-8081-exec-7
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:26:17,754 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:26:17,756 INFO  http-nio-8081-exec-9
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:27:41,289 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:27:41,290 INFO  http-nio-8081-exec-1
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:27:46,448 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:27:46,449 INFO  http-nio-8081-exec-2
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:30:13,657 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:30:13,660 INFO  http-nio-8081-exec-4
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:30:14,681 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:30:14,682 INFO  http-nio-8081-exec-5
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:30:15,890 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:30:15,896 INFO  http-nio-8081-exec-6
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:36:45,405 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:36:45,407 INFO  http-nio-8081-exec-8
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:37:02,057 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:37:02,058 INFO  http-nio-8081-exec-9
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:37:31,891 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:37:31,892 INFO  http-nio-8081-exec-10
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:40:53,196 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:40:53,197 INFO  http-nio-8081-exec-2
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:41:11,553 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:41:11,554 INFO  http-nio-8081-exec-3
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:42:11,061 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:42:11,064 INFO  http-nio-8081-exec-4
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 15:43:26,425 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 15:43:26,427 INFO  http-nio-8081-exec-6
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 16:47:04,823 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 16:47:04,831 INFO  http-nio-8081-exec-8
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 16:52:38,526 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 16:52:38,528 INFO  http-nio-8081-exec-10
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 16:56:12,669 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 16:56:12,671 INFO  http-nio-8081-exec-2
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 16:57:17,052 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 16:57:17,054 INFO  http-nio-8081-exec-4
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 16:57:21,149 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 16:57:21,150 INFO  http-nio-8081-exec-5
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-23 16:57:31,612 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-23 16:57:31,613 INFO  http-nio-8081-exec-6
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee

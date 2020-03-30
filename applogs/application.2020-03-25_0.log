@@ -1,0 +1,8 @@
+2020-03-25 09:08:32,292 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-25 09:08:32,395 INFO  http-nio-8081-exec-7
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-25 09:14:13,001 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-25 09:14:13,004 INFO  http-nio-8081-exec-9
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee

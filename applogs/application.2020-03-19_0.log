@@ -1,0 +1,151 @@
+2020-03-19 14:46:48,529 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-19 14:46:49,056 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-19 14:46:49,639 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 19600 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-19 14:46:49,640 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-19 14:46:49,640 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-19 14:46:53,750 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-19 14:46:53,750 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-19 14:46:55,898 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-19 14:46:57,979 INFO  cluster-ClusterId{value='5e733887a3d66f4c9093d572', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 common frames omitted
+2020-03-19 14:46:59,026 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 9.959 seconds (JVM running for 13.765)
+2020-03-19 14:46:59,027 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-19 14:47:20,035 INFO  cluster-ClusterId{value='5e733887a3d66f4c9093d572', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:3, serverValue:1}] to localhost:27017
+2020-03-19 14:47:20,043 INFO  cluster-ClusterId{value='5e733887a3d66f4c9093d572', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=1575200}
+2020-03-19 14:48:07,716 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:31,579 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:31,625 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:31,628 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:31,631 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:31,633 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:31,635 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:33,515 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:33,563 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:33,565 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:33,565 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:33,567 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:33,567 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,080 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,153 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,175 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,237 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,242 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,332 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,337 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,603 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,605 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:34,607 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:36,703 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:53,005 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:56,149 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:48:56,151 INFO  http-nio-8081-exec-7
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-19 14:48:56,244 INFO  http-nio-8081-exec-7
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:4, serverValue:2}] to localhost:27017
+2020-03-19 14:48:56,804 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:49:12,970 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-19 14:49:13,091 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 19600 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-19 14:49:13,091 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-19 14:49:13,092 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-19 14:49:15,717 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-19 14:49:15,718 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-19 14:49:15,758 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-19 14:49:15,763 INFO  cluster-ClusterId{value='5e733913a3d66f4c9093d573', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:5, serverValue:3}] to localhost:27017
+2020-03-19 14:49:15,764 INFO  cluster-ClusterId{value='5e733913a3d66f4c9093d573', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=449200}
+2020-03-19 14:49:16,813 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.815 seconds (JVM running for 151.553)
+2020-03-19 14:49:16,814 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-19 14:49:26,254 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-19 14:49:26,256 WARN  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: JWT Token does not begin with Bearer String
+2020-03-19 14:49:26,257 WARN  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: JWT Token is expaired
+2020-03-19 14:53:31,232 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-19 14:53:31,349 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 19600 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-19 14:53:31,349 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-19 14:53:31,350 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-19 14:53:33,782 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-19 14:53:33,784 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-19 14:53:33,826 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-19 14:53:33,832 INFO  cluster-ClusterId{value='5e733a15a3d66f4c9093d574', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:6, serverValue:4}] to localhost:27017
+2020-03-19 14:53:33,833 INFO  cluster-ClusterId{value='5e733a15a3d66f4c9093d574', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=668200}
+2020-03-19 14:53:34,850 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.593 seconds (JVM running for 409.589)
+2020-03-19 14:53:34,850 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
