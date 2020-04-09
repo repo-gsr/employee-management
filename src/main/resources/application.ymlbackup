@@ -10,7 +10,7 @@ spring:
     name: employee-management
   data:
     mongodb:
-      host: localhost
+      host: mongodb-container
       database: employee-management
       port: 27017
       password: abc123

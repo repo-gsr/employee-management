@@ -1,0 +1,965 @@
+2020-03-30 10:01:23,855 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 10:01:23,890 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 10:01:23,891 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 10:24:47,836 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 10:24:47,859 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 10:24:47,860 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 10:37:46,442 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 10:37:46,458 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 10:37:46,459 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 10:37:46,477 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 10:37:56,313 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 10:37:56,315 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 10:39:20,112 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 10:39:21,145 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 10:39:22,211 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 10:47:26,957 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-03-30 10:47:48,614 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 10:47:48,794 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 10:47:48,851 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 10:47:49,861 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 10:47:49,891 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 10:47:49,917 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 10:48:03,329 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 10:48:06,828 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 10:48:09,673 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 10:49:37,094 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-03-30 10:49:37,804 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-30 10:49:37,964 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-03-30 10:49:37,988 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-30 10:49:38,018 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-30 10:49:38,023 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-30 10:49:38,030 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-03-30 10:49:38,097 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-03-30 10:49:38,209 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-03-30 10:49:38,253 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 10:49:38,279 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 10:49:38,283 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 10:49:38,415 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 10:49:38,418 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 10:49:38,420 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 10:49:38,807 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 10:49:38,810 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 10:49:38,817 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 10:49:38,857 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 10:49:38,858 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 10:49:38,859 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 10:49:38,866 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 10:49:38,873 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 10:49:38,874 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 11:33:42,523 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-03-30 11:33:42,552 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 11:33:42,567 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 11:33:42,571 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 11:33:42,699 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 11:33:42,701 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 11:33:42,703 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:33:43,048 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:33:43,053 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:33:43,064 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:33:43,128 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 11:33:43,129 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 11:33:43,129 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 11:33:43,141 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 11:33:43,152 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 11:33:43,152 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 11:35:19,336 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-03-30 11:35:19,353 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 11:35:19,362 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 11:35:19,366 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 11:35:19,447 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 11:35:19,449 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 11:35:19,451 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:35:19,657 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:35:19,659 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:35:19,667 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:35:19,718 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 11:35:19,719 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 11:35:19,719 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 11:35:19,726 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 11:35:19,732 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 11:35:19,732 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 11:35:19,750 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 11:35:19,751 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 11:35:19,751 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 11:36:00,878 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-03-30 11:36:01,614 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-30 11:36:01,733 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-03-30 11:36:01,759 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-30 11:36:01,784 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-30 11:36:01,788 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-30 11:36:01,794 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-03-30 11:36:01,880 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-03-30 11:36:01,998 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-03-30 11:36:02,025 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 11:36:02,043 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 11:36:02,047 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 11:36:02,162 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 11:36:02,165 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 11:36:02,167 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:36:02,441 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:36:02,444 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:36:02,449 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:36:02,478 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 11:36:02,478 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 11:36:02,479 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 11:36:02,484 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 11:36:02,490 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 11:36:02,490 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 11:36:02,514 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 11:36:02,515 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 11:36:02,515 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 11:55:57,208 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 11:55:57,305 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 11:55:57,315 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 11:55:57,318 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 11:55:57,401 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 11:55:57,403 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 11:55:57,405 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 11:56:39,322 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 11:57:52,138 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 11:57:52,310 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 11:57:52,361 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 11:57:53,423 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 11:57:53,452 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 11:57:53,480 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 12:15:24,636 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 12:15:24,953 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 12:15:25,379 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 28400 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 12:15:25,379 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 12:15:25,380 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 12:15:29,091 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 12:15:29,092 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 12:15:31,049 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 12:15:31,139 INFO  cluster-ClusterId{value='5e81958bad46766ef0522707', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+2020-03-30 12:15:31,141 INFO  cluster-ClusterId{value='5e81958bad46766ef0522707', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=741900}
+2020-03-30 12:15:33,281 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 8.315 seconds (JVM running for 11.081)
+2020-03-30 12:15:33,282 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 12:15:46,085 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:15:46,105 INFO  http-nio-8081-exec-1
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 12:15:46,139 INFO  http-nio-8081-exec-1
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:2, serverValue:14}] to localhost:27017
+2020-03-30 12:17:29,765 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:30,024 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:33,646 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:33,678 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:33,679 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:33,683 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:33,686 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:33,687 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,431 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,461 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,462 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,464 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,465 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,467 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,926 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,928 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,961 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:34,976 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:35,021 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:35,025 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:35,099 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:35,112 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:35,401 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:35,401 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:35,402 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:39,828 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:17:49,024 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 12:57:32,220 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:02:42,721 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:02:42,811 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:02:42,829 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 13:02:42,839 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 13:02:42,844 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 13:02:42,926 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 13:02:42,928 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 13:02:42,930 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 13:03:42,476 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:04:38,537 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:04:38,604 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:04:38,617 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 13:04:38,627 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 13:04:38,631 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 13:04:38,707 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 13:04:38,709 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 13:04:38,712 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 13:05:50,993 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:06:05,057 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 13:06:05,224 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 13:06:05,272 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 13:06:06,371 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 13:06:06,407 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 13:06:06,441 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 13:12:25,608 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:12:25,680 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 13:12:25,690 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 13:12:25,693 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 13:12:25,782 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 13:12:25,785 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 13:12:25,786 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 13:14:49,863 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:14:49,938 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 13:14:49,946 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 13:14:49,950 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 13:14:50,038 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 13:14:50,040 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 13:14:50,041 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 13:15:29,346 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:15:29,420 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 13:15:29,432 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 13:15:29,442 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 13:15:29,445 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 13:15:29,535 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 13:15:29,536 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 13:15:29,538 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 14:02:15,720 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-03-30 14:08:27,305 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-03-30 14:09:53,064 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-03-30 14:26:34,441 INFO  main
+				com.employeemngt.service.impl.ReportServiceImpl: null
+java.lang.NullPointerException: null
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.itextpdf.text.pdf.OutputStreamCounter.flush(OutputStreamCounter.java:89)
+	at com.itextpdf.text.DocWriter.close(DocWriter.java:233)
+	at com.itextpdf.text.pdf.PdfWriter.close(PdfWriter.java:1238)
+	at com.itextpdf.text.pdf.PdfDocument.close(PdfDocument.java:780)
+	at com.itextpdf.text.Document.close(Document.java:409)
+	at com.employeemngt.service.impl.ReportServiceImpl.downloadReportInPdf(ReportServiceImpl.java:130)
+	at com.employeemngt.service.impl.ReportServiceImplTest.downloadReportInPdfTest(ReportServiceImplTest.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+2020-03-30 14:29:21,315 INFO  main
+				com.employeemngt.service.impl.ReportServiceImpl: null
+java.lang.NullPointerException: null
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.itextpdf.text.pdf.OutputStreamCounter.flush(OutputStreamCounter.java:89)
+	at com.itextpdf.text.DocWriter.close(DocWriter.java:233)
+	at com.itextpdf.text.pdf.PdfWriter.close(PdfWriter.java:1238)
+	at com.itextpdf.text.pdf.PdfDocument.close(PdfDocument.java:780)
+	at com.itextpdf.text.Document.close(Document.java:409)
+	at com.employeemngt.service.impl.ReportServiceImpl.downloadReportInPdf(ReportServiceImpl.java:130)
+	at com.employeemngt.service.impl.ReportServiceImplTest.downloadReportInPdfTest(ReportServiceImplTest.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+2020-03-30 15:13:26,905 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-03-30 15:13:27,543 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-30 15:13:27,683 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-03-30 15:13:27,713 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-30 15:13:27,745 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-30 15:13:27,751 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-30 15:13:27,761 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-03-30 15:13:27,843 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-03-30 15:13:27,945 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 15:13:28,002 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 15:13:28,029 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 15:13:28,097 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 15:13:28,104 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 15:13:28,170 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 15:13:28,171 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 15:13:28,172 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 15:13:28,555 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-03-30 15:13:28,556 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 15:13:28,564 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 15:13:28,566 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 15:13:28,568 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 15:13:28,602 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 15:13:28,603 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 15:13:28,604 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 15:13:28,611 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 15:13:28,616 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 15:13:28,617 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 15:13:28,635 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 15:13:28,636 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 15:13:28,636 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 15:13:28,665 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-03-30 15:36:19,059 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 15:36:19,350 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 15:36:19,781 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 22464 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 15:36:19,782 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 15:36:19,782 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 15:36:23,396 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 15:36:23,397 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 15:36:25,327 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 15:36:25,403 INFO  cluster-ClusterId{value='5e81c4a1ad467657c0b6fc32', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:1, serverValue:15}] to localhost:27017
+2020-03-30 15:36:25,407 INFO  cluster-ClusterId{value='5e81c4a1ad467657c0b6fc32', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=1231400}
+2020-03-30 15:36:27,529 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 8.168 seconds (JVM running for 10.851)
+2020-03-30 15:36:27,529 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 15:49:01,007 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 15:49:01,159 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 22464 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 15:49:01,160 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 15:49:01,160 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 15:49:03,533 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 15:49:03,535 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 15:49:03,567 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 15:49:03,576 INFO  cluster-ClusterId{value='5e81c797ad467657c0b6fc33', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+2020-03-30 15:49:03,577 INFO  cluster-ClusterId{value='5e81c797ad467657c0b6fc33', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=732800}
+2020-03-30 15:49:04,196 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.158 seconds (JVM running for 767.518)
+2020-03-30 15:49:04,197 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 15:49:23,027 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 15:49:23,120 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 22464 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 15:49:23,120 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 15:49:23,120 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 15:49:25,438 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 15:49:25,441 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 15:49:25,470 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 15:49:25,474 INFO  cluster-ClusterId{value='5e81c7adad467657c0b6fc34', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:3, serverValue:17}] to localhost:27017
+2020-03-30 15:49:25,475 INFO  cluster-ClusterId{value='5e81c7adad467657c0b6fc34', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=515500}
+2020-03-30 15:49:26,059 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.025 seconds (JVM running for 789.382)
+2020-03-30 15:49:26,060 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 15:50:53,599 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 15:50:53,709 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 22464 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 15:50:53,709 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 15:50:53,710 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 15:50:56,121 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 15:50:56,123 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 15:50:56,151 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 15:50:56,157 INFO  cluster-ClusterId{value='5e81c808ad467657c0b6fc35', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:4, serverValue:18}] to localhost:27017
+2020-03-30 15:50:56,158 INFO  cluster-ClusterId{value='5e81c808ad467657c0b6fc35', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=564199}
+2020-03-30 15:50:56,715 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.09 seconds (JVM running for 880.037)
+2020-03-30 15:50:56,715 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 15:51:02,251 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 15:51:02,385 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 22464 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 15:51:02,386 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 15:51:02,386 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 15:51:04,764 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 15:51:04,765 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 15:51:04,795 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 15:51:04,799 INFO  cluster-ClusterId{value='5e81c810ad467657c0b6fc36', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:5, serverValue:19}] to localhost:27017
+2020-03-30 15:51:04,800 INFO  cluster-ClusterId{value='5e81c810ad467657c0b6fc36', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=625600}
+2020-03-30 15:51:05,368 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.089 seconds (JVM running for 888.69)
+2020-03-30 15:51:05,368 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 15:54:55,024 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 15:54:55,139 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 22464 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 15:54:55,139 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 15:54:55,139 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 15:54:57,478 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 15:54:57,479 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 15:54:57,509 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 15:54:57,515 INFO  cluster-ClusterId{value='5e81c8f9ad467657c0b6fc37', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:6, serverValue:20}] to localhost:27017
+2020-03-30 15:54:57,516 INFO  cluster-ClusterId{value='5e81c8f9ad467657c0b6fc37', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=600901}
+2020-03-30 15:54:58,166 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.117 seconds (JVM running for 1121.488)
+2020-03-30 15:54:58,166 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 16:41:28,626 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 16:41:28,932 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 16:41:29,366 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 1684 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 16:41:29,367 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 16:41:29,367 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 16:41:32,997 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 16:41:32,997 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 16:41:34,930 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 16:41:35,004 INFO  cluster-ClusterId{value='5e81d3e6ad46760694abfc59', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:1, serverValue:21}] to localhost:27017
+2020-03-30 16:41:35,006 INFO  cluster-ClusterId{value='5e81d3e6ad46760694abfc59', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=963200}
+2020-03-30 16:41:37,103 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 8.154 seconds (JVM running for 10.888)
+2020-03-30 16:41:37,104 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 16:42:12,243 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,321 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,329 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,335 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,335 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,339 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,759 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,833 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,852 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,899 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,902 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,923 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:12,957 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:13,319 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:13,321 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:13,322 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:42:50,365 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:43:10,764 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-03-30 16:43:10,808 INFO  http-nio-8081-exec-8
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:2, serverValue:22}] to localhost:27017
+2020-03-30 16:54:56,160 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 16:54:56,344 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 1684 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 16:54:56,344 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 16:54:56,345 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 16:54:59,163 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 16:54:59,165 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 16:54:59,203 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 16:54:59,209 INFO  cluster-ClusterId{value='5e81d70bad46760694abfc5a', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:3, serverValue:23}] to localhost:27017
+2020-03-30 16:54:59,210 INFO  cluster-ClusterId{value='5e81d70bad46760694abfc5a', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=832700}
+2020-03-30 16:55:00,301 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 4.106 seconds (JVM running for 814.089)
+2020-03-30 16:55:00,301 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-03-30 16:56:57,808 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 16:56:58,089 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-03-30 16:56:58,505 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 26964 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-03-30 16:56:58,505 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-03-30 16:56:58,505 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-03-30 16:57:02,280 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-03-30 16:57:02,281 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-03-30 16:57:04,283 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-03-30 16:57:04,350 INFO  cluster-ClusterId{value='5e81d788ad467669542b4b1c', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:1, serverValue:24}] to localhost:27017
+2020-03-30 16:57:04,353 INFO  cluster-ClusterId{value='5e81d788ad467669542b4b1c', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=788199}
+2020-03-30 16:57:06,081 WARN  restartedMain
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: Unable to start LiveReload server
+2020-03-30 16:57:06,392 ERROR restartedMain
+				org.apache.juli.logging.DirectJDKLog: Failed to start end point associated with ProtocolHandler ["http-nio-8081"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.employeemngt.EmployeeManagementApplication.main(EmployeeManagementApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2020-03-30 16:57:06,393 ERROR restartedMain
+				org.apache.juli.logging.DirectJDKLog: Failed to start connector [Connector[HTTP/1.1-8081]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8081]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.employeemngt.EmployeeManagementApplication.main(EmployeeManagementApplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	... 19 common frames omitted
+2020-03-30 16:57:06,423 ERROR restartedMain
+				org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter: 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8081 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8081, or configure this application to listen on another port.
+
+2020-03-30 17:18:37,346 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-03-30 17:18:37,992 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-03-30 17:18:38,140 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-03-30 17:18:38,163 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-03-30 17:18:38,185 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-03-30 17:18:38,190 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-03-30 17:18:38,196 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-03-30 17:18:38,292 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-03-30 17:18:38,372 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 17:18:38,433 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-03-30 17:18:38,459 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-03-30 17:18:38,526 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-03-30 17:18:38,533 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-03-30 17:18:38,601 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-03-30 17:18:38,603 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-03-30 17:18:38,606 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 17:18:38,982 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-03-30 17:18:38,983 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 17:18:38,991 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 17:18:38,994 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 17:18:38,995 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-03-30 17:18:39,032 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 17:18:39,033 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 17:18:39,033 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 17:18:39,039 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-03-30 17:18:39,047 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 17:18:39,048 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 17:18:39,069 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-03-30 17:18:39,069 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-03-30 17:18:39,070 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-03-30 17:18:39,102 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..

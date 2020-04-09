@@ -1,0 +1,248 @@
+2020-04-07 10:41:27,654 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-07 10:41:28,286 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-07 10:41:28,440 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-07 10:41:28,487 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-07 10:41:28,543 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-07 10:41:28,553 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-07 10:41:28,566 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-07 10:41:28,696 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-07 10:41:28,829 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-07 10:41:28,929 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-07 10:41:28,979 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-04-07 10:41:29,018 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-04-07 10:41:29,026 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-04-07 10:41:29,147 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-04-07 10:41:29,149 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-04-07 10:41:29,151 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:41:29,574 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-07 10:41:29,574 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:41:29,583 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:41:29,586 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:41:29,588 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:41:29,634 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 10:41:29,635 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 10:41:29,636 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-07 10:41:29,643 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-07 10:41:29,652 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 10:41:29,654 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 10:41:29,684 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 10:41:29,684 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 10:41:29,685 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-07 10:41:29,733 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-07 10:48:02,269 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-07 10:48:02,996 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-07 10:48:03,156 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-07 10:48:03,188 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-07 10:48:03,235 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-07 10:48:03,243 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-07 10:48:03,260 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-07 10:48:03,378 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-07 10:48:03,537 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-07 10:48:03,616 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-07 10:48:03,645 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-04-07 10:48:03,734 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-04-07 10:48:03,740 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-04-07 10:48:03,827 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-04-07 10:48:03,830 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-04-07 10:48:03,832 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:48:04,312 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-07 10:48:04,314 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:48:04,324 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:48:04,328 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:48:04,332 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 10:48:04,400 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 10:48:04,401 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 10:48:04,402 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-07 10:48:04,413 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-07 10:48:04,425 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 10:48:04,425 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 10:48:04,462 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 10:48:04,463 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 10:48:04,464 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-07 10:48:04,516 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-07 13:40:06,634 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-07 13:40:07,194 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-07 13:40:07,360 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-07 13:40:07,386 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-07 13:40:07,445 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-07 13:40:07,458 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-07 13:40:07,470 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-07 13:40:07,592 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-07 13:40:07,687 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-07 13:40:07,756 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-07 13:40:07,785 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-04-07 13:40:07,817 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-04-07 13:40:07,870 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-04-07 13:40:07,977 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-04-07 13:40:07,981 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-04-07 13:40:07,984 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 13:40:08,403 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-07 13:40:08,403 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 13:40:08,412 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 13:40:08,417 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 13:40:08,420 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 13:40:08,489 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 13:40:08,490 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 13:40:08,491 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-07 13:40:08,499 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-07 13:40:08,507 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 13:40:08,508 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 13:40:08,544 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 13:40:08,545 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 13:40:08,546 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-07 13:40:08,599 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-07 16:14:04,253 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-07 16:14:04,765 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-07 16:14:04,874 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-07 16:14:04,899 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-07 16:14:04,933 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-07 16:14:04,941 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-07 16:14:04,949 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-07 16:14:05,040 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-07 16:14:05,129 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-07 16:14:05,190 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-07 16:14:05,218 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-04-07 16:14:05,243 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-04-07 16:14:05,247 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-04-07 16:14:05,344 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-04-07 16:14:05,346 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-04-07 16:14:05,348 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 16:14:05,691 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-07 16:14:05,692 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 16:14:05,701 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 16:14:05,705 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 16:14:05,708 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-07 16:14:05,751 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 16:14:05,752 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 16:14:05,753 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-07 16:14:05,759 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-07 16:14:05,766 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 16:14:05,766 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 16:14:05,794 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-07 16:14:05,794 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-07 16:14:05,795 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-07 16:14:05,826 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..

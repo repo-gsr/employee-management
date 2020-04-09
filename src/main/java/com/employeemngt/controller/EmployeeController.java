@@ -73,5 +73,14 @@ public class EmployeeController extends AbstractMapper {
 			throws IOException, ParseException {
 		return new ResponseEntity<>(employeeservice.addListOfEmployees(file), HttpStatus.CREATED);
 	}
+	
+	
+	
+	@GetMapping
+	public String testMongDbConnection() {
+		
+		
+		return "Connected";
+	}
 
 }

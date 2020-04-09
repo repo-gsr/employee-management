@@ -57,9 +57,52 @@ While writing Junit Test Case Don't need write Test case for priviate methods.
 
 Those are automatically call while testing normal public methods.
  
+ Docker commands
+ 
+ To remove all running containers
+ 
+docker container rm -fv `docker ps -qa`
 
-Sample
+ To Remove all images
+docker rmi `docker images -qa`
 
-sample
-sample
+
+
+
+
+
+mongodb docker conatiner
+
+{
+  "requestdata": { 
+    "firstName": "venkata",
+    "lastName": "Subbareddy",
+    "gmail": "subbareddy@gmail.com",
+    "gender": "Male",
+    "dateOfJoin": "2019-05-27",
+    "dateOfBirth": "1991-05-02",
+    "phoneNumber": "8446320613",
+    "address": [
+      {
+        "street": "kalamandhir road",
+        "zipCode": "5600037",
+        "city": "kerala",
+        "country": "india",
+        "addType": null
+      },
+      {
+        "street": "KPHB",
+        "zipCode": "5160037",
+        "city": "Hyderabad",
+        "country": "india",
+        "addType": null
+      }
+    ],
+    "department": {
+      "name": "Accounts",
+      "description": "account department"
+    }
+  }
+}
+
 

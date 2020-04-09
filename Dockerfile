@@ -1,11 +1,14 @@
-FROM openjdk:8
+FROM maven:3.5.4-jdk-8
 
-LABEL maintainer="subbareddygangalal@gmail.com"
+LABEL maintainer="subbareddygangala@gmail.com"
 
+# Add a volume pointing to /tmp
 VOLUME /tmp
 
-ARG JAR_FILE
+EXPOSE 8081
 
-COPY ${JAR_FILE} employeeManagement.jar
+ARG jar_file=target/*.jar
 
-ENTRYPOINT ["java","-jar","/employeeManagement.jar"]
+COPY ${jar_file} employee_management.jar
+
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/employee_management.jar"]
