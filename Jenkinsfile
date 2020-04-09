@@ -42,7 +42,7 @@ pipeline {
     }
     stage('Push Docker Image To Docker Repo') {
       steps {     
-       //bat 'mvn dockerfile:push -Dreversion=${ReleaseVersion}'
+       bat 'mvn dockerfile:push -Dreversion=${ReleaseVersion}'
       }
     }
   }
