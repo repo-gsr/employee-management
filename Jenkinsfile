@@ -1,4 +1,5 @@
-currentBuild.displayName = ${env.GIT_COMMIT} + ${env.GIT_BRANCH}
+currentBuild.displayName = %GIT_COMMIT%+"#"+%GIT_BRANCH%
+
 pipeline {
   agent any
   parameters {
