@@ -33,13 +33,13 @@ pipeline {
            }
         }
     }
-    stage("Quality Gate") {
+    /*stage("Quality Gate") {
             steps {
               timeout(time: 1, unit: 'HOURS') {
                 waitForQualityGate abortPipeline: true
               }
-            }
-     }
+        }
+     }*/
     stage('Building Docker Image') {
       steps {     
         bat "mvn dockerfile:build -Dreversion=${params.ReleaseVersion}"
