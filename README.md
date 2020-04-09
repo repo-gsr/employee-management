@@ -182,16 +182,22 @@ Steps to try My sample application
 * To run the docker images.
 
 	``` docker run -p 8080:8081 -d --name <nameOfContainer> <repository_name> --restart always -e <environement_variable> -v <volume> -t <docker private repository url> ```
+	
 
 	** -p  port number that we are binding.
+	
 
 	** -d running in  detached mode 
+	
 
 	** --name docker container name
+	
 
 	** repository_name is image name which image you need run.
+	
 
 	** --restart  see the below options
+	
 
 | Flag	| Description |
 |-------|-------------|
