@@ -11,6 +11,7 @@ pipeline {
     }
     stage('Application Build') {
       steps {
+        echo '${ReleaseVersion}';
         bat 'mvn clean install -Ddockerfile.skip=true -Dreversion=${ReleaseVersion} -Dverbose=true -Dmaven.test.skip=true'
       }
     }
