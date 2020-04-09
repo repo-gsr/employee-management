@@ -2,13 +2,7 @@ pipeline {
   agent any
   parameters {
         string(defaultValue: '1.0', description: 'releaseversion', name: 'ReleaseVersion')
-    }
-  environment {
-    //Use Pipeline Utility Steps plugin to read information from pom.xml into env variables
-    artifactId = readMavenPom().getArtifactId()
-    version = readMavenPom().getVersion()
-    }
-    
+    } 
   stages {
     stage('Application Checkout From Git') {
       steps {
