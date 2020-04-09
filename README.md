@@ -1,4 +1,82 @@
-# employee-management
+# Employee-management 
+
+### This is Sample Application.
+
+#### Technology Stack
+
+* Spring boot.
+* Mongodb.
+* Jdk 1.8
+* Maven.
+* Code Coverage Using Jacoco Plugin.
+* Docker.
+* Docker-Compose.
+* Junit.
+* Dozer Mapping.
+* Jenkinsfile for pipeline.
+* Jwt Token Based Security.
+* swagger
+
+Keep on Adding new tools to it...........
+
+
+#### Spring boot
+
+Spring boot application. it provides lotoff features like autoConfiguration facilty to all configuratons like jdbc and security.
+
+#### Mongodb
+
+MongoDb as backend Database for persisting the application data.
+
+#### Maven
+
+Application Build tool to build the application.
+
+#### Code Coverage Using Jacoco Plugin.
+
+Jacoco plugin used for generating codecoverge report of application.
+
+#### Docker & Docker-compose 
+
+Docker is used for creating application docker images to easly deploy it environment and maintain the application scalability.
+
+Docker-compose used for to up the all the container at a time.
+
+#### Junit
+
+Individual Testcase to test the functionality.
+
+#### Dozer Mapping
+
+This is used for bean to bean mapping in side th application.
+
+#### Jenkinsfile 
+
+Jenkinsfile have stages, each stage have one task like Checkout Application from git and build that application and Junit Testing and CodeCoverage and also create the docker images and push those to private docker repository
+
+and push hole application to sonarQube to static code analysis.
+
+#### Jwt Token Based Security
+
+Provid the tocken based security to all rest apis.
+
+#### swagger
+
+API documention.
+
+Steps to try My sample application
+
+* git clone 
+
+* change mongodb creadentials accounrding to you local mongoserver.
+
+* ```mvn clean install -Ddockerfile.skip=true -Dreversion=${ReleaseVersion} -Dverbose=true```
+
+* After building application start the application.
+  
+  ```mvn spring-boot:run```
+  
+* access http://localhost:8081
 
 Dockerfile add in the application.
 
