@@ -146,6 +146,62 @@ API documention.
 
 ```
 
+* If  you want to push multiple tag images to private repository. use plugin in following way.
+
+```
+                   <plugin>
+				<groupId>com.spotify</groupId>
+				<artifactId>dockerfile-maven-plugin</artifactId>
+				<version>${dockerfile-maven-version}</version>
+				<executions>
+					<execution>
+						<id>tag-latest</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>build</goal>
+							<goal>tag</goal>
+							<goal>push</goal>
+						</goals>
+						<configuration>
+							<tag>latest</tag>
+						</configuration>
+					</execution>
+					<execution>
+						<id>tag-version</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>build</goal>
+							<goal>tag</goal>
+							<goal>push</goal>
+						</goals>
+						<configuration>
+							<tag>${project.artifactId}-${project.version}</tag>
+						</configuration>
+					</execution>
+				</executions>
+				<configuration>
+					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
+					<repository>private repository_name</repository>
+					<buildArgs>
+						<JAR_FILE>target/${project.artifactId}-${project.version}.jar
+						</JAR_FILE>
+					</buildArgs>
+				</configuration>
+			</plugin>
+
+```
+
+* Use the following maven docker commands
+
+	* ``` mvn dockerfile:build@tag-latest -Dreversion=6.0 ```
+	
+	* ``` mvn dockerfile:build@tag-version -Dreversion=6.0 ```
+	
+	* ``` mvn dockerfile:push@tag-letest -Dreversion=6.0 ```
+	
+	* ``` mvn dockerfile:push@tag-version -Dreversion=6.0 ```
+	
+
 ### docker dommands
 
 
