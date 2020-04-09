@@ -12,12 +12,13 @@ pipeline {
     stage('Application Build') {
       steps {
         echo "${params}";
-        bat 'mvn clean install -Ddockerfile.skip=true -Dreversion=${params.ReleaseVersion} -Dverbose=true -Dmaven.test.skip=true'
+        echo "${params.ReleaseVersion}"
+        bat 'mvn clean install -Ddockerfile.skip=true -Dreversion="${params.ReleaseVersion}" -Dverbose=true -Dmaven.test.skip=true'
       }
     }
     stage('Application Junit Test') {
       steps {
-        bat 'mvn test -Dreversion=${params.ReleaseVersion} -Dverbose=true'
+        bat 'mvn test -Dreversion="${params.ReleaseVersion}" -Dverbose=true'
       }
     }
     stage('Application Code Coverage') {
@@ -32,12 +33,12 @@ pipeline {
     }
     stage('Building Docker Image') {
       steps {     
-        bat 'mvn dockerfile:build -Dreversion=${params.ReleaseVersion}'
+        bat 'mvn dockerfile:build -Dreversion="${params.ReleaseVersion}"'
       }
     }
     stage('Push Docker Image To Docker Repo') {
       steps {     
-       bat 'mvn dockerfile:push -Dreversion=${params.ReleaseVersion}'
+       bat 'mvn dockerfile:push -Dreversion="${params.ReleaseVersion}"'
       }
     }
   }
