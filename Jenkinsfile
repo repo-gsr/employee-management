@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Application Checkout From Git') {
       steps {
-        git(credentialsId: 'subbareddygangala_gitrepo_cred', url: 'https://github.com/repo-gsr/employee-management.git')
+        git(url: 'https://github.com/repo-gsr/employee-management.git')
       }
     }
     stage('Application Build') {
