@@ -13,12 +13,12 @@ pipeline {
       steps {
         echo "${params}";
         echo "${params.ReleaseVersion}"
-        bat 'mvn clean install -Ddockerfile.skip=true -Dreversion="${params.ReleaseVersion}" -Dverbose=true -Dmaven.test.skip=true'
+        bat "mvn clean install -Ddockerfile.skip=true -Dreversion='${params.ReleaseVersion}' -Dverbose=true -Dmaven.test.skip=true"
       }
     }
     stage('Application Junit Test') {
       steps {
-        bat 'mvn test -Dreversion="${params.ReleaseVersion}" -Dverbose=true'
+        bat "mvn test -Dreversion='${params.ReleaseVersion}' -Dverbose=true"
       }
     }
     stage('Application Code Coverage') {
@@ -28,17 +28,17 @@ pipeline {
     }
     stage('Sonar Analysis') {
       steps {     
-        bat 'mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=a7d10b41f3ddfb5b9fe32c3d69f9476ee82ae6b6'
+        bat "mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=a7d10b41f3ddfb5b9fe32c3d69f9476ee82ae6b6"
       }
     }
     stage('Building Docker Image') {
       steps {     
-        bat 'mvn dockerfile:build -Dreversion="${params.ReleaseVersion}"'
+        bat "mvn dockerfile:build -Dreversion='${params.ReleaseVersion}'"
       }
     }
     stage('Push Docker Image To Docker Repo') {
       steps {     
-       bat 'mvn dockerfile:push -Dreversion="${params.ReleaseVersion}"'
+       bat "mvn dockerfile:push -Dreversion='${params.ReleaseVersion}'"
       }
     }
   }
