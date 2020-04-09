@@ -79,7 +79,7 @@ Steps to try My sample application
 * access http://localhost:8081
 
 
-### Docker commands
+### Docker commands using maven
 
 * Using maven we can create the docker image and push that to docker private repository.
 
@@ -87,13 +87,14 @@ Steps to try My sample application
 
 * For pushing docker images to you private repository you need to add repository details.
 
-** docker private repository name.
-** credentials.
+	** docker private repository name.
+	
+	** credentials.
 
 * The above details you need add in maven docker plugin.
 
 ``` 
-<plugin>
+                        <plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>${dockerfile-maven-version}</version>
@@ -119,7 +120,7 @@ Steps to try My sample application
 			</plugin>
 ```
 
-* In settings.xml file you need add credentials.```User/.m2/setting.xml``
+* In settings.xml file you need add credentials.** User/.m2/setting.xml **
 
 ```
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
@@ -147,49 +148,50 @@ Steps to try My sample application
 
 ### docker dommands
 
-** To remove all running containers
+
+* To remove all running containers
  
-```docker container rm -fv `docker ps -qa` ```
+	```docker container rm -fv `docker ps -qa` ```
 
-** To Remove all images
+* To Remove all images
 
-```docker rmi `docker images -qa` ```
+	```docker rmi `docker images -qa` ```
 
-** To See the Images 
+* To See the Images 
 
-``` docker images ```
+	``` docker images ```
 
-** To See running Containers
+* To See running Containers
 
-``` docker ps -a ```
+	``` docker ps -a ```
 
-** To Stop the running Container 
+* To Stop the running Container 
 
-``` docker stop <conatiner_id> ```
+	``` docker stop <conatiner_id> ```
 
-** To Remove Container_Id
+* To Remove Container_Id
 
-``` docker rm <container_id> ```
+	``` docker rm <container_id> ```
 
-** To Create the Docker Images
+* To Create the Docker Images
 
-``` docker build --tag image_Name:version . ```
+	``` docker build --tag image_Name:version . ```
 
-*** . referes it look for Dockerfile and build that dockerfile and create the image.
+	** . refers it look for Dockerfile and build that dockerfile and create the image.
 
-** To run the docker images.
+* To run the docker images.
 
-``` docker run -p 8080:8081 -d --name <nameOfContainer> <repository_name> --restart always -e <environement_variable> -v <volume> -t <docker private repository url> ```
+	``` docker run -p 8080:8081 -d --name <nameOfContainer> <repository_name> --restart always -e <environement_variable> -v <volume> -t <docker private repository url> ```
 
-*** -p  port number that we are binding.
+	** -p  port number that we are binding.
 
-*** -d running in  detached mode 
+	** -d running in  detached mode 
 
-*** --name docker container name
+	** --name docker container name
 
-*** repository_name is image name which image you need run.
+	** repository_name is image name which image you need run.
 
-*** --restart  see the below options
+	** --restart  see the below options
 
 | Flag	| Description |
 |-------|-------------|
