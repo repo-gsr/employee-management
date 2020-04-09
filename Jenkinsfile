@@ -1,5 +1,3 @@
-currentBuild.displayName = ${env.GIT_COMMIT}
-
 pipeline {
   agent any
   parameters {
