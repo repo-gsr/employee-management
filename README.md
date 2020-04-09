@@ -66,7 +66,7 @@ API documention.
 
 Steps to try My sample application
 
-* git clone 
+* ```git clone https://github.com/repo-gsr/employee-management.git```
 
 * change mongodb creadentials accounrding to you local mongoserver.
 
@@ -78,102 +78,163 @@ Steps to try My sample application
   
 * access http://localhost:8081
 
-Dockerfile add in the application.
 
-Mainly am using this Dockerfile to build the image of Application by using dockerfile-maven plugin.this plugin when you do docker build it will automatically create the Docker image ans tag that image. it mean it is ready to push you private docker repository.
+### Docker commands
 
-Following are Some Maven Docker Commands.
+* Using maven we can create the docker image and push that to docker private repository.
 
-mvn dockerfile:build -Dreversion=2.0
+``` mvn dockerfile:build -Dreversion={reversion}```
 
--Dreversion is not mandetory this related My sample application.
+* For pushing docker images to you private repository you need to add repository details.
 
-After dockerfile:build it will create dockerImage with tag(to your private dokcer repository)
+** docker private repository name.
+** credentials.
 
+* The above details you need add in maven docker plugin.
 
-mvn dockerfile:push 
+``` 
+<plugin>
+				<groupId>com.spotify</groupId>
+				<artifactId>dockerfile-maven-plugin</artifactId>
+				<version>${dockerfile-maven-version}</version>
+				<executions>
+					<execution>
+						<id>default</id>
+						<goals>
+							<goal>build</goal>
+							<goal>push</goal>
+							<goal>tag</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
+					<repository>You Repository Name</repository>
+					<tag>${project.version}</tag>
+					<buildArgs>
+						<JAR_FILE>target/${project.artifactId}-${project.version}.jar
+						</JAR_FILE>
+					</buildArgs>
+				</configuration>
+			</plugin>
+```
 
-The above command will push the create image into private Docker Repository.
-
-For pushing Docker image to your private Dcoker repository you need to add credentails in  maven setting.xml at { User/.m2/setting.xml}
-
-Sample Setting.xml file.
+* In settings.xml file you need add credentials.```User/.m2/setting.xml``
 
 ```
-<?xml version="1.0"?>
-
-<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/SETTINGS/1.0.0">
-    <servers>
-          <server>
-          <id>docker.io</id>
-          <username>xxxxxxx</username>
-          <password>xxxxxxx</password>
-          </server>
-    </servers>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  
+  <servers>
+    <server>
+      <id>docker.io</id>
+		<username>XXXXXXXXXXXXXXX</username>
+		<password>XXXXXXXXXXXXXXX</password>
+    </server>
+  </servers>
 </settings>
+
 ```
 
-And also add following tag in pom.xml file dockerfile plugin.
+* And also add following tag in pom.xml file dockerfile plugin.
 
 ```
 <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 
 ```
 
-Added Sonar Analysis Stage in jenkins file
+### docker dommands
 
-And also added CodeCovergae Report Plugin and that will show into Sonar DashBoard.
-
-Run the Junit Test Coverage
-
-mvn test -Dreversion=2.0 -Dverbose=true
-
-mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=a7d10b41f3ddfb5b9fe32c3d69f9476ee82ae6b6 -Dreversion=2.0
-
-
-While writing Junit Test Case Don't need write Test case for priviate methods.
-
-Those are automatically call while testing normal public methods.
+** To remove all running containers
  
- Docker commands
- 
- To remove all running containers
- 
-docker container rm -fv `docker ps -qa`
+```docker container rm -fv `docker ps -qa` ```
 
- To Remove all images
-docker rmi `docker images -qa`
+** To Remove all images
 
+```docker rmi `docker images -qa` ```
 
+** To See the Images 
 
+``` docker images ```
 
+** To See running Containers
 
+``` docker ps -a ```
 
-mongodb docker conatiner
+** To Stop the running Container 
 
+``` docker stop <conatiner_id> ```
+
+** To Remove Container_Id
+
+``` docker rm <container_id> ```
+
+** To Create the Docker Images
+
+``` docker build --tag image_Name:version . ```
+
+*** . referes it look for Dockerfile and build that dockerfile and create the image.
+
+** To run the docker images.
+
+``` docker run -p 8080:8081 -d --name <nameOfContainer> <repository_name> --restart always -e <environement_variable> -v <volume> -t <docker private repository url> ```
+
+*** -p  port number that we are binding.
+
+*** -d running in  detached mode 
+
+*** --name docker container name
+
+*** repository_name is image name which image you need run.
+
+*** --restart  see the below options
+
+| Flag	| Description |
+|-------|-------------|
+| no	| Do not automatically restart the container. (the default) |
+| on-failure	| Restart the container if it exits due to an error, which manifests as a non-zero exit code. |
+| always	| Always restart the container if it stops. If it is manually stopped, it is restarted only when Docker daemon restarts or the container itself is manually restarted. (See the second bullet listed in restart policy details)|
+| unless-stopped	| Similar to always, except that when the container is stopped (manually or otherwise), it is not restarted even after Docker daemon restarts.|
+
+#### Sonar 
+
+* If you want to show the code coverage in SonarQube then first you need to generate code coverage report.
+
+``` ```
+
+* Use the following sonar Command to push the Application to sonarQube Analysis.
+
+``` mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=Login_token -Dreversion=2.0 ```
+
+#### Some Request Input for Application API's
+
+* Adding Employee Data
+```
 {
   "requestdata": { 
-    "firstName": "venkata",
-    "lastName": "Subbareddy",
-    "gmail": "subbareddy@gmail.com",
+    "firstName": "abc",
+    "lastName": "pqr",
+    "gmail": "abc@gmail.com",
     "gender": "Male",
     "dateOfJoin": "2019-05-27",
-    "dateOfBirth": "1991-05-02",
-    "phoneNumber": "8446320613",
+    "dateOfBirth": "1991-05-20",
+    "phoneNumber": "1234567890",
     "address": [
       {
-        "street": "kalamandhir road",
+        "street": "main road",
         "zipCode": "5600037",
-        "city": "kerala",
+        "city": "Banlore",
         "country": "india",
-        "addType": null
+        "addType": Present
       },
       {
         "street": "KPHB",
         "zipCode": "5160037",
         "city": "Hyderabad",
         "country": "india",
-        "addType": null
+        "addType": Resident
       }
     ],
     "department": {
@@ -182,5 +243,58 @@ mongodb docker conatiner
     }
   }
 }
+```
+* Adding Department 
 
+```
+{
+  "requestdata": { 
+      "name": "Accounts",
+      "description": "account department"
+    }
+}
 
+````
+
+# Usage
+
+## Maven Goals
+
+Goals available for this plugin:
+
+| Goal | Description    | Default Phase |
+| ---- | -------------- | ------------- |
+| `dockerfile:build` | Builds a Docker image from a Dockerfile. | package |
+| `dockerfile:tag` | Tags a Docker image. | package |
+| `dockerfile:push` | Pushes a Docker image to a repository. | deploy |
+
+### Skip Docker Goals Bound to Maven Phases
+
+You can pass options to maven to disable the docker goals.
+
+| Maven Option  | What Does it Do?           | Default Value |
+| ------------- | -------------------------- | ------------- |
+| `dockerfile.skip` | Disables the entire dockerfile plugin; all goals become no-ops. | false |
+| `dockerfile.build.skip` | Disables the build goal; it becomes a no-op. | false |
+| `dockerfile.tag.skip` | Disables the tag goal; it becomes a no-op. | false |
+| `dockerfile.push.skip` | Disables the push goal; it becomes a no-op. | false |
+
+For example, to skip the entire dockerfile plugin:
+```
+mvn clean package -Ddockerfile.skip
+```
+
+## Configuration
+
+### Build Phase
+
+| Maven Option  | What Does it Do?           | Required | Default Value |
+| ------------- | -------------------------- | -------- | ------------- |
+| `dockerfile.contextDirectory` | Directory containing the Dockerfile to build. | yes | none |
+| `dockerfile.repository` | The repository to name the built image | no | none |
+| `dockerfile.tag` | The tag to apply when building the Dockerfile, which is appended to the repository. | no | latest |
+| `dockerfile.build.pullNewerImage` | Updates base images automatically. | no | true |
+| `dockerfile.build.noCache` | Do not use cache when building the image. | no | false |
+| `dockerfile.build.cacheFrom` | Docker image used as cache-from. Pulled in advance if not exist locally or `pullNewerImage` is `false` | no | none |
+| `dockerfile.buildArgs` | Custom build arguments. | no | none |
+| `dockerfile.build.squash` | Squash newly built layers into a single new layer (experimental API 1.25+). | no | false |
