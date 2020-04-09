@@ -64,7 +64,7 @@ Provid the tocken based security to all rest apis.
 
 API documention.
 
-Steps to try My sample application
+#### Steps to try My sample application
 
 * ```git clone https://github.com/repo-gsr/employee-management.git```
 
@@ -87,9 +87,9 @@ Steps to try My sample application
 
 * For pushing docker images to you private repository you need to add repository details.
 
-	** docker private repository name.
-	
-	** credentials.
+	* docker private repository name
+
+	* credentials.
 
 * The above details you need add in maven docker plugin.
 
@@ -177,26 +177,26 @@ Steps to try My sample application
 
 	``` docker build --tag image_Name:version . ```
 
-	** . refers it look for Dockerfile and build that dockerfile and create the image.
+	* . refers it look for Dockerfile and build that dockerfile and create the image.
 
 * To run the docker images.
 
 	``` docker run -p 8080:8081 -d --name <nameOfContainer> <repository_name> --restart always -e <environement_variable> -v <volume> -t <docker private repository url> ```
 	
 
-	** -p  port number that we are binding.
+	* -p  port number that we are binding.
 	
 
-	** -d running in  detached mode 
+	* -d running in  detached mode 
 	
 
-	** --name docker container name
+	* --name docker container name
 	
 
-	** repository_name is image name which image you need run.
+	* repository_name is image name which image you need run.
 	
 
-	** --restart  see the below options
+	* --restart  see the below options
 	
 
 | Flag	| Description |
@@ -219,6 +219,7 @@ Steps to try My sample application
 #### Some Request Input for Application API's
 
 * Adding Employee Data
+
 ```
 {
   "requestdata": { 
