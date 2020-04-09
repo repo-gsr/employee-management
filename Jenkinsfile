@@ -28,8 +28,10 @@ pipeline {
     }
     stage('Sonar Analysis') {
       steps {     
-        bat "mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=a7d10b41f3ddfb5b9fe32c3d69f9476ee82ae6b6"
-      }
+        withSonarQubeEnv('My SonarQube Server') {
+              bat 'mvn clean package sonar:sonar'
+           }
+        }
     }
     stage('Building Docker Image') {
       steps {     
