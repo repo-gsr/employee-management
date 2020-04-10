@@ -47,19 +47,21 @@ pipeline {
                     }
               }
       }*/
-    if(${params.dockerimagecreate} == true) {
        stage('Building Docker Image') {
+         when{
+           expression {params.dockerimagecreate == true}
+         }
          steps {     
               bat "mvn dockerfile:build -Dreversion=${params.ReleaseVersion}"
          }
        }
-    }
-    if(${params.dockerimagecreate} == true) {
        stage('Push Docker Image To Docker Repo') {
+          when{
+           expression {params.dockerimagepush == true}
+         }
          steps {     
               bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion}"
          }
       }
-    }
   }
 }
