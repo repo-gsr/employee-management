@@ -1,4 +1,4 @@
-currentBuild.displayName = "employee" +"#"+ currentBuild.number
+currentBuild.displayName = "employee" + currentBuild.number
 pipeline {
   agent any
   parameters {
