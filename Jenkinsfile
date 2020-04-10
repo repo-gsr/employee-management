@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Application Checkout From Git') {
       steps {
-        buildName "${GIT_COMMIT}"
+        currentBuild.displayName = "${GIT_COMMIT}"
         git(url: 'https://github.com/repo-gsr/employee-management.git')
       }
     }
