@@ -6,9 +6,6 @@ pipeline {
     } 
   stages {
     stage('Application Checkout From Git') {
-      script {
-           currentBuild.displayName = "employee"
-      }
       steps {
         git(url: 'https://github.com/repo-gsr/employee-management.git')
       }
