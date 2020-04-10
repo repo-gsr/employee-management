@@ -1,6 +1,5 @@
 pipeline {
   agent any
-  currentBuild.displayName = ${GIT_COMMIT}
   parameters {
         string(defaultValue: '1.0', description: 'releaseversion', name: 'ReleaseVersion')
     } 
