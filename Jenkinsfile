@@ -36,7 +36,7 @@ pipeline {
     stage('Sonar Analysis') {
        steps {     
           withSonarQubeEnv('sonarqube') {
-                    bat 'mvn sonar:sonar -Dreversion=${params.ReleaseVersion}'
+                    bat "mvn sonar:sonar -Dreversion=${params.ReleaseVersion}"
              }
          }
      }
