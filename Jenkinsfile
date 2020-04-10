@@ -68,4 +68,5 @@ pipeline {
               bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion}"
          }
      }
+  }
 }
