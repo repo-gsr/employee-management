@@ -33,37 +33,29 @@ pipeline {
         jacoco buildOverBuild: true, changeBuildStatus: true, execPattern: '**/target/**.exec', inclusionPattern: '**/*.class'
       }
     }
-    stage('Sonar Code Analysis') {
-      parallel {
-          stage('Sonar Analysis') {
-            steps {     
-              withSonarQubeEnv('sonarqube') {
+    stage('Sonar Analysis') {
+       steps {     
+          withSonarQubeEnv('sonarqube') {
                     bat 'mvn sonar:sonar'
-                 }
-              }
-          }
-          /*stage("Quality Gate") {
+             }
+         }
+     }
+      /*stage("Quality Gate") {
                   steps {
                     timeout(time: 1, unit: 'HOURS') {
                       waitForQualityGate abortPipeline: true
                     }
               }
-           }*/
-       }
-    }
-    stage('Dockerizing Application'){
-        parallel {
-              stage('Building Docker Image') {
-                steps {     
+      }*/
+ 
+       stage('Building Docker Image') {
+          steps {     
                   bat "mvn dockerfile:build -Dreversion=${params.ReleaseVersion}"
                 }
-              }
-              stage('Push Docker Image To Docker Repo') {
+       }
+       stage('Push Docker Image To Docker Repo') {
                 steps {     
                  bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion}"
                 }
-              }
-        }
-    }
-  }
+       }
 }
