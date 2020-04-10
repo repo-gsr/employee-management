@@ -1,3 +1,4 @@
+currentBuild.displayName = "employee"
 pipeline {
   agent any
   parameters {
@@ -6,9 +7,6 @@ pipeline {
   stages {
     stage('Application Checkout From Git') {
       steps {
-         script {
-               currentBuild.displayName = "employee"
-          }
         git(url: 'https://github.com/repo-gsr/employee-management.git')
       }
     }
