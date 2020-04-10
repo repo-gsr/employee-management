@@ -130,6 +130,14 @@
 			<scope>test</scope>
 		</dependency>
 
+
+		<!-- https://mvnrepository.com/artifact/com.github.ulisesbocchio/jasypt-spring-boot-starter -->
+		<dependency>
+			<groupId>com.github.ulisesbocchio</groupId>
+			<artifactId>jasypt-spring-boot-starter</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
 	</dependencies>
 	<!-- <dependencyManagement> <dependencies> <dependency> <groupId>org.springframework.cloud</groupId> 
 		<artifactId>spring-cloud-dependencies</artifactId> <version>Edgware.RELEASE</version> 
@@ -166,24 +174,47 @@
 				</configuration>
 			</plugin>
 
+			<!-- <plugin> <groupId>com.spotify</groupId> <artifactId>dockerfile-maven-plugin</artifactId> 
+				<version>${dockerfile-maven-version}</version> <executions> <execution> <id>default</id> 
+				<goals> <goal>build</goal> <goal>push</goal> <goal>tag</goal> </goals> </execution> 
+				</executions> <configuration> <useMavenSettingsForAuth>true</useMavenSettingsForAuth> 
+				<repository>subbareddy1991/subbareddydocker_repo</repository> <tag>${project.artifactId}${project.version}</tag> 
+				<buildArgs> <JAR_FILE>target/${project.artifactId}-${project.version}.jar 
+				</JAR_FILE> </buildArgs> </configuration> </plugin> -->
+
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>${dockerfile-maven-version}</version>
 				<executions>
 					<execution>
-						<id>default</id>
+						<id>tag-latest</id>
+						<phase>deploy</phase>
 						<goals>
 							<goal>build</goal>
-							<goal>push</goal>
 							<goal>tag</goal>
+							<goal>push</goal>
 						</goals>
+						<configuration>
+							<tag>latest</tag>
+						</configuration>
+					</execution>
+					<execution>
+						<id>tag-version</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>build</goal>
+							<goal>tag</goal>
+							<goal>push</goal>
+						</goals>
+						<configuration>
+							<tag>${project.artifactId}-${project.version}</tag>
+						</configuration>
 					</execution>
 				</executions>
 				<configuration>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 					<repository>subbareddy1991/subbareddydocker_repo</repository>
-					<tag>${project.version}</tag>
 					<buildArgs>
 						<JAR_FILE>target/${project.artifactId}-${project.version}.jar
 						</JAR_FILE>

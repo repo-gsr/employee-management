@@ -25,13 +25,13 @@ public class MultipleMongoConfig {
 
 	@Primary
 	@Bean(name = "primaryMongoTemplate")
-	public MongoTemplate primaryMongoTemplate(){
+	public MongoTemplate primaryMongoTemplate() {
 		return new MongoTemplate(primaryFactory(getPrimary()));
 	}
 
 	@Bean
 	@Primary
-	public MongoDbFactory primaryFactory(final MongoProperties mongo){
+	public MongoDbFactory primaryFactory(final MongoProperties mongo) {
 		return new SimpleMongoDbFactory(new MongoClient(mongo.getHost(), mongo.getPort()), mongo.getDatabase());
 	}
 }

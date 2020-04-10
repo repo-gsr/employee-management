@@ -9,6 +9,6 @@ EXPOSE 8081
 
 ARG jar_file=target/*.jar
 
-COPY ${jar_file} employee_management.jar
+COPY ${jar_file} employee_management.jar/
 
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/employee_management.jar"]

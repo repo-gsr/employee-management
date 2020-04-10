@@ -1,0 +1,1386 @@
+2020-04-08 12:00:01,086 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-08 12:00:01,813 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-08 12:00:01,989 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-08 12:00:02,029 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-08 12:00:02,083 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-08 12:00:02,092 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-08 12:00:02,109 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-08 12:00:02,239 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-08 12:00:02,362 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 12:00:02,433 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 12:00:02,471 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-04-08 12:00:02,500 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-04-08 12:00:02,554 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-04-08 12:00:02,654 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-04-08 12:00:02,657 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-04-08 12:00:02,659 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 12:00:03,138 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-08 12:00:03,139 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 12:00:03,151 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 12:00:03,155 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 12:00:03,157 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 12:00:03,214 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 12:00:03,215 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 12:00:03,215 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 12:00:03,221 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-08 12:00:03,228 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 12:00:03,229 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 12:00:03,261 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 12:00:03,262 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 12:00:03,262 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 12:00:03,302 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-08 12:38:22,837 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:38:23,241 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:38:23,639 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 24608 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 12:38:23,641 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 12:38:23,642 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 12:38:28,479 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 12:38:28,479 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 12:38:28,642 WARN  restartedMain
+				org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'employeeservice'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'primaryMongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+2020-04-08 12:38:28,689 ERROR restartedMain
+				org.springframework.boot.SpringApplication: Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'employeeservice'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'primaryMongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.employeemngt.EmployeeManagementApplication.main(EmployeeManagementApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'primaryMongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'primaryMongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 37 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.obtainBeanInstanceFromFactory(ConfigurationClassEnhancer.java:388)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$9ee3be6f.primaryFactory(<generated>)
+	at com.employeemngt.MultipleMongoConfig.primaryMongoTemplate(MultipleMongoConfig.java:29)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$9ee3be6f.CGLIB$primaryMongoTemplate$0(<generated>)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$9ee3be6f$$FastClassBySpringCGLIB$$fed819a5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$9ee3be6f.primaryMongoTemplate(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 60 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 82 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.employeemngt.MultipleMongoConfig.primaryFactory(MultipleMongoConfig.java:35)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$9ee3be6f.CGLIB$primaryFactory$1(<generated>)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$9ee3be6f$$FastClassBySpringCGLIB$$fed819a5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$9ee3be6f.primaryFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 83 common frames omitted
+2020-04-08 12:41:58,227 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:41:58,517 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:41:58,883 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 12584 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 12:41:58,883 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 12:41:58,883 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 12:42:02,579 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 12:42:02,579 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 12:42:02,751 WARN  restartedMain
+				org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'employeeservice'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'primaryMongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+2020-04-08 12:42:02,811 ERROR restartedMain
+				org.springframework.boot.SpringApplication: Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'employeeservice'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'primaryMongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.employeemngt.EmployeeManagementApplication.main(EmployeeManagementApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'primaryMongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'primaryMongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 37 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryMongoTemplate' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.core.MongoTemplate]: Factory method 'primaryMongoTemplate' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primaryFactory' defined in class path resource [com/employeemngt/MultipleMongoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.obtainBeanInstanceFromFactory(ConfigurationClassEnhancer.java:388)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$f76b843d.primaryFactory(<generated>)
+	at com.employeemngt.MultipleMongoConfig.primaryMongoTemplate(MultipleMongoConfig.java:29)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$f76b843d.CGLIB$primaryMongoTemplate$2(<generated>)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$f76b843d$$FastClassBySpringCGLIB$$725d12c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$f76b843d.primaryMongoTemplate(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 60 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.mongodb.MongoDbFactory]: Factory method 'primaryFactory' threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 82 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at com.employeemngt.MultipleMongoConfig.primaryFactory(MultipleMongoConfig.java:35)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$f76b843d.CGLIB$primaryFactory$0(<generated>)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$f76b843d$$FastClassBySpringCGLIB$$725d12c2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.employeemngt.MultipleMongoConfig$$EnhancerBySpringCGLIB$$f76b843d.primaryFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 83 common frames omitted
+2020-04-08 12:52:08,567 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:52:08,865 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:52:09,196 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 8176 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 12:52:09,196 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 12:52:09,196 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 12:52:13,194 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 12:52:13,194 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 12:52:15,107 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 12:52:15,109 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Adding discovered server localhost:27017 to client view of cluster
+2020-04-08 12:52:17,187 INFO  cluster-ClusterId{value='5e8d7ba72a8fcd1ff05703a9', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 common frames omitted
+2020-04-08 12:52:17,827 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 8.95 seconds (JVM running for 11.755)
+2020-04-08 12:52:17,827 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 12:52:51,280 INFO  cluster-ClusterId{value='5e8d7ba72a8fcd1ff05703a9', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=null, userName='myUserAdmin', source='employee-management', password=<hidden>, mechanismProperties={}}
+	at com.mongodb.connection.SaslAuthenticator.wrapInMongoSecurityException(SaslAuthenticator.java:157)
+	at com.mongodb.connection.SaslAuthenticator.access$200(SaslAuthenticator.java:37)
+	at com.mongodb.connection.SaslAuthenticator$1.run(SaslAuthenticator.java:66)
+	at com.mongodb.connection.SaslAuthenticator$1.run(SaslAuthenticator.java:44)
+	at com.mongodb.connection.SaslAuthenticator.doAsSubject(SaslAuthenticator.java:162)
+	at com.mongodb.connection.SaslAuthenticator.authenticate(SaslAuthenticator.java:44)
+	at com.mongodb.connection.DefaultAuthenticator.authenticate(DefaultAuthenticator.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.authenticateAll(InternalStreamConnectionInitializer.java:109)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:46)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mongodb.MongoCommandException: Command failed with error 18: 'Authentication failed.' on server localhost:27017. The full response is { "ok" : 0.0, "errmsg" : "Authentication failed.", "code" : 18, "codeName" : "AuthenticationFailed" }
+	at com.mongodb.connection.CommandHelper.createCommandFailureException(CommandHelper.java:170)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:123)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.SaslAuthenticator.sendSaslStart(SaslAuthenticator.java:117)
+	at com.mongodb.connection.SaslAuthenticator.access$000(SaslAuthenticator.java:37)
+	at com.mongodb.connection.SaslAuthenticator$1.run(SaslAuthenticator.java:50)
+	... 9 common frames omitted
+2020-04-08 12:53:49,534 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:53:49,922 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:53:50,538 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 12:53:50,539 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 12:53:50,540 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 12:53:55,221 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 12:53:55,221 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 12:53:57,247 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 12:53:57,247 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Adding discovered server localhost:27017 to client view of cluster
+2020-04-08 12:53:57,346 INFO  cluster-ClusterId{value='5e8d7c0d2a8fcd2d70c72fc9', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=null, userName='myUserAdmin', source='employee-management', password=<hidden>, mechanismProperties={}}
+	at com.mongodb.connection.SaslAuthenticator.wrapInMongoSecurityException(SaslAuthenticator.java:157)
+	at com.mongodb.connection.SaslAuthenticator.access$200(SaslAuthenticator.java:37)
+	at com.mongodb.connection.SaslAuthenticator$1.run(SaslAuthenticator.java:66)
+	at com.mongodb.connection.SaslAuthenticator$1.run(SaslAuthenticator.java:44)
+	at com.mongodb.connection.SaslAuthenticator.doAsSubject(SaslAuthenticator.java:162)
+	at com.mongodb.connection.SaslAuthenticator.authenticate(SaslAuthenticator.java:44)
+	at com.mongodb.connection.DefaultAuthenticator.authenticate(DefaultAuthenticator.java:32)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.authenticateAll(InternalStreamConnectionInitializer.java:109)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:46)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:116)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mongodb.MongoCommandException: Command failed with error 18: 'Authentication failed.' on server localhost:27017. The full response is { "ok" : 0.0, "errmsg" : "Authentication failed.", "code" : 18, "codeName" : "AuthenticationFailed" }
+	at com.mongodb.connection.CommandHelper.createCommandFailureException(CommandHelper.java:170)
+	at com.mongodb.connection.CommandHelper.receiveCommandResult(CommandHelper.java:123)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:32)
+	at com.mongodb.connection.SaslAuthenticator.sendSaslStart(SaslAuthenticator.java:117)
+	at com.mongodb.connection.SaslAuthenticator.access$000(SaslAuthenticator.java:37)
+	at com.mongodb.connection.SaslAuthenticator$1.run(SaslAuthenticator.java:50)
+	... 9 common frames omitted
+2020-04-08 12:53:59,804 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 9.866 seconds (JVM running for 12.927)
+2020-04-08 12:53:59,805 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 12:55:03,687 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:55:03,797 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 12:55:03,798 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 12:55:03,798 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 12:55:06,329 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 12:55:06,331 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 12:55:06,385 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 12:55:06,399 INFO  cluster-ClusterId{value='5e8d7c522a8fcd2d70c72fca', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:8, serverValue:13}] to localhost:27017
+2020-04-08 12:55:06,402 INFO  cluster-ClusterId{value='5e8d7c522a8fcd2d70c72fca', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=1034200}
+2020-04-08 12:55:07,183 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.468 seconds (JVM running for 80.306)
+2020-04-08 12:55:07,184 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 12:56:26,792 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:56:26,921 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 12:56:26,922 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 12:56:26,922 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 12:56:29,209 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 12:56:29,211 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 12:56:29,245 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 12:56:29,255 INFO  cluster-ClusterId{value='5e8d7ca52a8fcd2d70c72fcb', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:9, serverValue:14}] to localhost:27017
+2020-04-08 12:56:29,257 INFO  cluster-ClusterId{value='5e8d7ca52a8fcd2d70c72fcb', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=1280700}
+2020-04-08 12:56:29,898 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.079 seconds (JVM running for 163.021)
+2020-04-08 12:56:29,899 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 12:57:25,822 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 12:57:25,959 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 12:57:25,959 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 12:57:25,960 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 12:57:28,379 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 12:57:28,381 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 12:57:28,411 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 12:57:28,411 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Adding discovered server localhost:27017 to client view of cluster
+2020-04-08 12:57:28,420 INFO  cluster-ClusterId{value='5e8d7ce02a8fcd2d70c72fcc', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:10, serverValue:15}] to localhost:27017
+2020-04-08 12:57:28,423 INFO  cluster-ClusterId{value='5e8d7ce02a8fcd2d70c72fcc', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=1319100}
+2020-04-08 12:57:28,424 INFO  cluster-ClusterId{value='5e8d7ce02a8fcd2d70c72fcc', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Discovered cluster type of STANDALONE
+2020-04-08 12:57:29,063 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.206 seconds (JVM running for 222.185)
+2020-04-08 12:57:29,063 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 12:58:00,067 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,150 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,151 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,156 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,156 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,159 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,733 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,736 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,853 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,872 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,938 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,938 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:00,957 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:01,008 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:01,303 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:01,303 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:01,305 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:03,309 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:05,694 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:09,204 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:09,206 INFO  http-nio-8081-exec-10
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-08 12:58:09,260 INFO  http-nio-8081-exec-10
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:11, serverValue:16}] to localhost:27017
+2020-04-08 12:58:09,790 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,607 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,632 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,635 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,637 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,639 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,641 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,869 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,929 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,935 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,938 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,940 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:16,945 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,400 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,407 INFO  http-nio-8081-exec-8
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,417 INFO  http-nio-8081-exec-5
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,445 INFO  http-nio-8081-exec-7
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,446 INFO  http-nio-8081-exec-9
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,452 INFO  http-nio-8081-exec-10
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,459 INFO  http-nio-8081-exec-4
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,583 INFO  http-nio-8081-exec-2
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,585 INFO  http-nio-8081-exec-6
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 12:58:17,588 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-08 13:02:56,364 INFO  Thread-22
+				com.mongodb.diagnostics.logging.SLF4JLogger: Closed connection [connectionId{localValue:11, serverValue:16}] to localhost:27017 because the pool has been closed.
+2020-04-08 13:02:57,181 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 13:02:57,285 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 13:02:57,286 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 13:02:57,286 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 13:02:59,612 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 13:02:59,613 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 13:02:59,639 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 13:02:59,639 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Adding discovered server localhost:27017 to client view of cluster
+2020-04-08 13:02:59,647 INFO  cluster-ClusterId{value='5e8d7e2b2a8fcd2d70c72fcd', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:12, serverValue:17}] to localhost:27017
+2020-04-08 13:02:59,648 INFO  cluster-ClusterId{value='5e8d7e2b2a8fcd2d70c72fcd', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=976200}
+2020-04-08 13:02:59,649 INFO  cluster-ClusterId{value='5e8d7e2b2a8fcd2d70c72fcd', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Discovered cluster type of STANDALONE
+2020-04-08 13:03:00,219 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 3.014 seconds (JVM running for 553.341)
+2020-04-08 13:03:00,219 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 13:21:20,989 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 13:21:21,091 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 13:21:21,091 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 13:21:21,091 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 13:21:23,235 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 13:21:23,236 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 13:21:23,265 WARN  restartedMain
+				org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'employeeservice'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+2020-04-08 13:21:23,281 ERROR restartedMain
+				org.springframework.boot.SpringApplication: Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'employeeservice'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.employeemngt.EmployeeManagementApplication.main(EmployeeManagementApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 37 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 60 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 74 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 87 common frames omitted
+Caused by: java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.boot.autoconfigure.mongo.MongoProperties.createNetworkMongoClient(MongoProperties.java:237)
+	at org.springframework.boot.autoconfigure.mongo.MongoProperties.createMongoClient(MongoProperties.java:208)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration.mongo(MongoAutoConfiguration.java:73)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$1fba7207.CGLIB$mongo$1(<generated>)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$1fba7207$$FastClassBySpringCGLIB$$db918cf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$1fba7207.mongo(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 88 common frames omitted
+2020-04-08 13:21:30,115 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 13:21:30,191 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 13:21:30,191 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 13:21:30,191 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 13:21:32,300 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 13:21:32,302 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 13:21:32,326 WARN  restartedMain
+				org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'employeeservice'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+2020-04-08 13:21:32,338 ERROR restartedMain
+				org.springframework.boot.SpringApplication: Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'departmentController': Unsatisfied dependency expressed through field 'employeeservice'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.employeemngt.EmployeeManagementApplication.main(EmployeeManagementApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'employeerepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 37 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 60 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 74 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 87 common frames omitted
+Caused by: java.lang.IllegalStateException: Invalid mongo configuration, either uri or host/port/credentials must be specified
+	at org.springframework.boot.autoconfigure.mongo.MongoProperties.createNetworkMongoClient(MongoProperties.java:237)
+	at org.springframework.boot.autoconfigure.mongo.MongoProperties.createMongoClient(MongoProperties.java:208)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration.mongo(MongoAutoConfiguration.java:73)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$1fba7207.CGLIB$mongo$1(<generated>)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$1fba7207$$FastClassBySpringCGLIB$$db918cf6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$1fba7207.mongo(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 88 common frames omitted
+2020-04-08 13:21:51,616 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 13:21:51,686 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 13:21:51,686 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 13:21:51,686 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 13:21:53,752 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 13:21:53,754 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 13:21:53,780 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 13:21:53,788 INFO  cluster-ClusterId{value='5e8d82992a8fcd2d70c72fce', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:13, serverValue:22}] to localhost:27017
+2020-04-08 13:21:53,789 INFO  cluster-ClusterId{value='5e8d82992a8fcd2d70c72fce', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=707600}
+2020-04-08 13:21:54,296 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 2.67 seconds (JVM running for 1687.419)
+2020-04-08 13:21:54,296 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 13:22:10,164 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 13:22:10,222 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 13:22:10,222 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 13:22:10,222 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 13:22:12,260 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 13:22:12,261 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 13:22:12,283 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 13:22:12,290 INFO  cluster-ClusterId{value='5e8d82ac2a8fcd2d70c72fcf', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Opened connection [connectionId{localValue:14, serverValue:23}] to localhost:27017
+2020-04-08 13:22:12,291 INFO  cluster-ClusterId{value='5e8d82ac2a8fcd2d70c72fcf', description='null'}-localhost:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 0]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=996200}
+2020-04-08 13:22:12,755 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 2.585 seconds (JVM running for 1705.878)
+2020-04-08 13:22:12,755 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 13:23:31,265 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 13:23:31,351 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 11632 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 13:23:31,351 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 13:23:31,352 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 13:23:33,479 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 13:23:33,481 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 13:23:33,506 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[mongodb:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 13:23:33,987 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 2.698 seconds (JVM running for 1787.11)
+2020-04-08 13:23:33,987 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 13:23:34,398 INFO  cluster-ClusterId{value='5e8d82fd2a8fcd2d70c72fd0', description='null'}-mongodb:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server mongodb:27017
+com.mongodb.MongoSocketException: mongodb
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: mongodb
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at java.net.InetAddress.getByName(InetAddress.java:1077)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 common frames omitted
+2020-04-08 13:23:56,870 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 13:27:04,507 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-08 13:27:05,159 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-08 13:27:05,319 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-08 13:27:05,356 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-08 13:27:05,405 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-08 13:27:05,415 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-08 13:27:05,425 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-08 13:27:05,552 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-08 13:27:05,661 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 13:27:05,729 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 13:27:05,756 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-04-08 13:27:05,816 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-04-08 13:27:05,821 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-04-08 13:27:05,896 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-04-08 13:27:05,898 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-04-08 13:27:05,900 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 13:27:06,305 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-08 13:27:06,306 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 13:27:06,315 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 13:27:06,318 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 13:27:06,320 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 13:27:06,364 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 13:27:06,365 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 13:27:06,366 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 13:27:06,373 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-08 13:27:06,381 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 13:27:06,382 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 13:27:06,410 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 13:27:06,411 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 13:27:06,411 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 13:27:06,464 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-08 14:57:10,864 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-08 14:57:11,475 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-08 14:57:11,617 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-08 14:57:11,650 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-08 14:57:11,702 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-08 14:57:11,712 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-08 14:57:11,723 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-08 14:57:11,859 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-08 14:57:11,981 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 14:57:12,057 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 14:57:12,101 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-04-08 14:57:12,183 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-04-08 14:57:12,190 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-04-08 14:57:12,278 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-04-08 14:57:12,281 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-04-08 14:57:12,283 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 14:57:12,667 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-08 14:57:12,667 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 14:57:12,679 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 14:57:12,682 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 14:57:12,687 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 14:57:12,754 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 14:57:12,755 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 14:57:12,755 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 14:57:12,763 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-08 14:57:12,772 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 14:57:12,772 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 14:57:12,800 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 14:57:12,801 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 14:57:12,802 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 14:57:12,849 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-08 15:01:27,226 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-08 15:01:27,922 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-08 15:01:28,086 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-08 15:01:28,122 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-08 15:01:28,175 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-08 15:01:28,185 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-08 15:01:28,201 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-08 15:01:28,321 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-08 15:01:28,447 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 15:01:28,524 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 15:01:28,557 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-04-08 15:01:28,651 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-04-08 15:01:28,659 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-04-08 15:01:28,738 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-04-08 15:01:28,741 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-04-08 15:01:28,742 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:01:29,175 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-08 15:01:29,176 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:01:29,187 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:01:29,192 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:01:29,196 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:01:29,250 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 15:01:29,252 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 15:01:29,253 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 15:01:29,265 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-08 15:01:29,274 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 15:01:29,275 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 15:01:29,305 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 15:01:29,306 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 15:01:29,306 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 15:01:29,343 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-08 15:33:04,148 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 15:33:04,415 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 15:33:04,690 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 10368 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 15:33:04,691 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 15:33:04,691 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 15:33:08,081 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 15:33:08,081 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 15:33:09,673 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[mongodb:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 15:33:09,674 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Adding discovered server mongodb:27017 to client view of cluster
+2020-04-08 15:33:11,085 INFO  cluster-ClusterId{value='5e8da15d2a8fcd28808a5989', description='null'}-mongodb:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server mongodb:27017
+com.mongodb.MongoSocketException: mongodb
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: mongodb
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at java.net.InetAddress.getByName(InetAddress.java:1077)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 common frames omitted
+2020-04-08 15:33:11,954 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 7.529 seconds (JVM running for 9.956)
+2020-04-08 15:33:11,954 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 15:35:57,955 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 15:35:58,220 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 15:35:58,491 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 2924 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 15:35:58,492 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 15:35:58,492 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 15:36:01,985 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 15:36:01,985 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 15:36:03,493 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[mongodb:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 15:36:03,494 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Adding discovered server mongodb:27017 to client view of cluster
+2020-04-08 15:36:03,787 INFO  cluster-ClusterId{value='5e8da20b2a8fcd0b6cac4104', description='null'}-mongodb:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server mongodb:27017
+com.mongodb.MongoSocketException: mongodb
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: mongodb
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at java.net.InetAddress.getByName(InetAddress.java:1077)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 common frames omitted
+2020-04-08 15:36:05,678 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 7.443 seconds (JVM running for 9.856)
+2020-04-08 15:36:05,678 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 15:38:30,053 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 15:38:30,147 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 2924 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 15:38:30,148 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 15:38:30,148 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 15:38:32,254 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-08 15:38:32,256 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-08 15:38:32,287 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[mongodb:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 15:38:32,287 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Adding discovered server mongodb:27017 to client view of cluster
+2020-04-08 15:38:32,289 INFO  cluster-ClusterId{value='5e8da2a02a8fcd0b6cac4105', description='null'}-mongodb:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server mongodb:27017
+com.mongodb.MongoSocketException: mongodb
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: mongodb
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at java.net.InetAddress.getByName(InetAddress.java:1077)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 common frames omitted
+2020-04-08 15:38:32,896 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 2.819 seconds (JVM running for 157.075)
+2020-04-08 15:38:32,896 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 15:40:54,140 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-08 15:41:12,235 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 2924 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-08 15:41:12,235 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-08 15:41:12,235 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-08 15:41:13,778 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Cluster created with settings {hosts=[mongodb:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-04-08 15:41:13,779 INFO  restartedMain
+				com.mongodb.diagnostics.logging.SLF4JLogger: Adding discovered server mongodb:27017 to client view of cluster
+2020-04-08 15:41:13,781 INFO  cluster-ClusterId{value='5e8da3412a8fcd0b6cac4107', description='null'}-mongodb:27017
+				com.mongodb.diagnostics.logging.SLF4JLogger: Exception in monitor thread while connecting to server mongodb:27017
+com.mongodb.MongoSocketException: mongodb
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:57)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:113)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: mongodb
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at java.net.InetAddress.getByName(InetAddress.java:1077)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 common frames omitted
+2020-04-08 15:41:13,888 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 1.723 seconds (JVM running for 318.067)
+2020-04-08 15:41:13,888 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-08 15:43:11,724 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-08 15:43:12,221 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-08 15:43:12,343 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-08 15:43:12,382 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-08 15:43:12,422 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-08 15:43:12,433 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-08 15:43:12,449 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-08 15:43:12,548 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-08 15:43:12,643 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 15:43:12,714 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-08 15:43:12,748 INFO  main
+				org.dozer.config.GlobalSettings: Trying to find Dozer configuration file: dozer.properties
+2020-04-08 15:43:12,777 WARN  main
+				org.dozer.config.GlobalSettings: Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2020-04-08 15:43:12,821 INFO  main
+				org.dozer.DozerInitializer: Initializing Dozer. Version: 5.5.0, Thread Name: main
+2020-04-08 15:43:12,884 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2020-04-08 15:43:12,887 INFO  main
+				org.dozer.jmx.JMXPlatformImpl: Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2020-04-08 15:43:12,889 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:43:13,248 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-08 15:43:13,249 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:43:13,258 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:43:13,261 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:43:13,264 INFO  main
+				org.dozer.DozerBeanMapper: Initializing a new instance of dozer bean mapper.
+2020-04-08 15:43:13,312 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 15:43:13,313 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 15:43:13,314 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 15:43:13,325 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-08 15:43:13,334 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 15:43:13,336 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 15:43:13,368 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-08 15:43:13,369 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-08 15:43:13,370 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-08 15:43:13,412 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..

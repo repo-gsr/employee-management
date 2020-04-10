@@ -50,7 +50,7 @@
 
 	<!-- LOG everything at INFO level -->
 	<root level="info">
-		<appender-ref ref="RollingFile" />
+		<!-- <appender-ref ref="RollingFile" /> -->
 		<appender-ref ref="Console" />
 	</root>
 
