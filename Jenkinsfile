@@ -3,7 +3,15 @@ pipeline {
   agent any
   parameters {
         string(defaultValue: '1.0', description: 'releaseversion', name: 'ReleaseVersion')
-    } 
+        booleanParam(defaultValue: false, description: 'docker image Creation', name: 'dockerimagecreate')
+        booleanParam(defaultValue: false, description: 'docker image push to repo', name: 'dockerimagepush')
+        //choice(name: 'dockeroption',choices: ['dockerimagecreate', 'dockerimagepush'],description: 'docker options')
+  }
+  environment {
+        //Use Pipeline Utility Steps plugin to read information from pom.xml into env variables
+        IMAGE = readMavenPom().getArtifactId()
+        VERSION = readMavenPom().getVersion()
+  }
   stages {
     stage('Application Checkout From Git') {
       steps {
@@ -57,4 +65,5 @@ pipeline {
               }
         }
     }
+  }
 }
