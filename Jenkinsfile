@@ -7,14 +7,11 @@ pipeline {
   stages {
     stage('Application Checkout From Git') {
       steps {
-        currentBuild.displayName = "${GIT_COMMIT}"
         git(url: 'https://github.com/repo-gsr/employee-management.git')
       }
     }
     stage('Application Build') {
       steps {
-        echo "${params}";
-        echo "${params.ReleaseVersion}"
         bat "mvn clean install -Ddockerfile.skip=true -Dreversion=${params.ReleaseVersion} -Dverbose=true -Dmaven.test.skip=true"
       }
     }
@@ -28,29 +25,36 @@ pipeline {
         jacoco buildOverBuild: true, changeBuildStatus: true, execPattern: '**/target/**.exec', inclusionPattern: '**/*.class'
       }
     }
-    stage('Sonar Analysis') {
-      steps {     
-        withSonarQubeEnv('sonarqube') {
-              bat 'mvn sonar:sonar'
-           }
-        }
+    stage('Sonar Code Analysis') {
+      parallel {
+          stage('Sonar Analysis') {
+            steps {     
+              withSonarQubeEnv('sonarqube') {
+                    bat 'mvn sonar:sonar'
+                 }
+              }
+          }
+          /*stage("Quality Gate") {
+                  steps {
+                    timeout(time: 1, unit: 'HOURS') {
+                      waitForQualityGate abortPipeline: true
+                    }
+              }
+           }*/
+       }
     }
-    /*stage("Quality Gate") {
-            steps {
-              timeout(time: 1, unit: 'HOURS') {
-                waitForQualityGate abortPipeline: true
+    stage('Dockerizing Application'){
+        parallel {
+              stage('Building Docker Image') {
+                steps {     
+                  bat "mvn dockerfile:build -Dreversion=${params.ReleaseVersion}"
+                }
+              }
+              stage('Push Docker Image To Docker Repo') {
+                steps {     
+                 bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion}"
+                }
               }
         }
-     }*/
-    stage('Building Docker Image') {
-      steps {     
-        bat "mvn dockerfile:build -Dreversion=${params.ReleaseVersion}"
-      }
     }
-    stage('Push Docker Image To Docker Repo') {
-      steps {     
-       bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion}"
-      }
-    }
-  }
 }
