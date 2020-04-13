@@ -1,4 +1,4 @@
-# Employee-management 
+# Employee-management Sample Application
 
 ### This is Sample Application.
 
