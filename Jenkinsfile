@@ -40,13 +40,15 @@ pipeline {
              }
          }
      }
-      /*stage("Quality Gate") {
-                  steps {
-                    timeout(time: 1, unit: 'HOURS') {
-                      waitForQualityGate abortPipeline: true
-                    }
-              }
-      }*/
+      /*stage("SonarQube Quality Gate") { 
+        timeout(time: 1, unit: 'HOURS') { 
+           def qg = waitForQualityGate() 
+           if (qg.status != 'OK') {
+             error "Job aborted due to quality gate failure: ${qg.status}"
+            }
+          }
+        }*/
+        
        stage('Building Docker Image') {
          when{
            expression {params.dockerimagecreate == true}

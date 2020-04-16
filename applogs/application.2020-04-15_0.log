@@ -1,0 +1,26 @@
+2020-04-15 15:23:48,768 INFO  main
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-15 15:23:49,892 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-15 15:23:50,530 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 25804 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-15 15:23:50,531 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-15 15:23:50,532 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-15 15:23:59,332 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-15 15:23:59,333 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-15 15:24:06,818 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 16.889 seconds (JVM running for 23.582)
+2020-04-15 15:24:06,818 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-15 15:24:29,220 INFO  http-nio-8081-exec-1
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-15 15:24:29,241 INFO  http-nio-8081-exec-1
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-15 15:34:17,213 INFO  http-nio-8081-exec-3
+				com.employeemngt.jwt.JwtRequestFilter: Auth Flag %S
+2020-04-15 15:34:17,215 INFO  http-nio-8081-exec-3
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee

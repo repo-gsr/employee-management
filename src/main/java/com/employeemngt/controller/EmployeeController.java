@@ -51,6 +51,7 @@ public class EmployeeController extends AbstractMapper {
 
 	@GetMapping("/getAllemployees")
 	public ResponseEntity<List<Employee>> getAllemployees() {
+		System.out.println("Thread : " + Thread.currentThread().getName());
 		return new ResponseEntity<>(employeeservice.getAllEmployees(), HttpStatus.OK);
 	}
 
