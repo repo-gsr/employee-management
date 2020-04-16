@@ -128,4 +128,32 @@ public class LeaveServiceImplTest {
 		assertThat(7, is(leaveResult.getLeavesBalence()));
 
 	}
+
+	@Test
+	public void editLeaveDetailsByEmployeeIdTest() throws ParseException {
+		
+		when(leaverepository.findByLeaveTypeAndLeaveEmployeeId(anyString(), anyString())).thenReturn(leave);
+		
+		when(leaverepository.save(any(Leave.class))).thenReturn(leave);
+		
+		Leave leaveResult = leaveServiceImpl.editLeaveDetailsByEmployeeId(leave);
+
+		assertThat("12345", is(leaveResult.getLeaveId()));
+
+		assertThat("123", is(leaveResult.getLeaveEmployeeId()));
+
+		assertThat("Casual", is(leaveResult.getLeaveType()));
+
+		assertThat(new SimpleDateFormat("YYYY/mm/dd").parse("2019/05/02"), is(leaveResult.getLeaveFrom()));
+
+		assertThat(new SimpleDateFormat("YYYY/mm/dd").parse("2019/05/10"), is(leaveResult.getLeaveTo()));
+
+		assertThat("Approve", is(leaveResult.getLeaveStatus()));
+
+		assertThat(12, is(leaveResult.getLeavesTotal()));
+
+		assertThat(5, is(leaveResult.getLeavesUsed()));
+
+		assertThat(7, is(leaveResult.getLeavesBalence()));
+	}
 }
