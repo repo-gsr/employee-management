@@ -61,8 +61,10 @@ pipeline {
           when{
            expression {params.dockerimagepush == true}
          }
-         steps {     
-              bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion} -s setting.xml -gs settings.xml"
+         steps {  
+           configFileProvider([configFile('1629a272-bf68-44c2-aabc-bf9c7d0b338d'), configFile('eebc9482-8dab-4f4c-8bb6-ec9577710e2f')]) {
+               bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion}"
+             }
          }
       }
   }
