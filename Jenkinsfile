@@ -62,7 +62,7 @@ pipeline {
            expression {params.dockerimagepush == true}
          }
          steps {     
-              bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion}"
+              bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion} -s setting.xml -gs settings.xml"
          }
       }
   }
