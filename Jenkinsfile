@@ -61,7 +61,7 @@ pipeline {
           when{
            expression {params.dockerimagepush == true}
          }
-         steps {  -Dsettings.security
+         steps {  
                bat "mvn dockerfile:push -Dreversion=${params.ReleaseVersion} -s settings.xml -gs settings.xml -Dsettings.security=settings-security.xml"
          }
       }
