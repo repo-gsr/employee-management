@@ -1,0 +1,460 @@
+2020-04-16 09:45:13,904 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Starting  #########
+2020-04-16 09:45:14,088 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Starting EmployeeManagementApplication on BDC7C-L-44ZY5Q2 with PID 25804 (C:\le_workspace\Git\employee-management\target\classes started by s.venkata.gangala in C:\le_workspace\Git\employee-management)
+2020-04-16 09:45:14,089 DEBUG restartedMain
+				org.springframework.boot.StartupInfoLogger: Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2020-04-16 09:45:14,089 INFO  restartedMain
+				org.springframework.boot.SpringApplication: The following profiles are active: Local
+2020-04-16 09:45:18,488 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Initializing filter 'jwtRequestFilter'
+2020-04-16 09:45:18,490 DEBUG localhost-startStop-1
+				org.springframework.web.filter.GenericFilterBean: Filter 'jwtRequestFilter' configured successfully
+2020-04-16 09:45:19,401 INFO  restartedMain
+				org.springframework.boot.StartupInfoLogger: Started EmployeeManagementApplication in 5.446 seconds (JVM running for 66106.309)
+2020-04-16 09:45:19,402 INFO  restartedMain
+				com.employeemngt.EmployeeManagementApplication: #########   EmployeeManagementApplication Started   #########
+2020-04-16 12:28:20,977 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 12:28:21,737 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:28:21,738 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:28:21,739 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:28:21,754 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 12:28:21,762 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:28:21,763 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:28:21,788 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:28:21,788 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:28:21,789 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:29:55,270 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:29:55,396 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:31:12,685 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 12:31:12,819 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:31:12,893 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:31:13,776 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 12:31:13,788 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 12:31:13,793 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 12:31:13,811 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-16 12:31:13,850 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 12:31:13,922 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:31:13,923 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:31:13,924 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:31:13,932 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 12:31:13,939 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:31:13,939 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:31:13,960 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:31:13,960 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:31:13,961 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:31:13,976 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 12:31:14,445 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 12:31:14,511 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 12:31:14,538 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 12:43:11,980 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 12:43:12,135 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:43:12,226 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:43:13,228 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 12:43:13,245 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 12:43:13,249 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 12:43:13,268 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-16 12:43:13,321 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 12:43:13,395 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:43:13,396 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:43:13,396 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:43:13,403 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 12:43:13,410 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:43:13,411 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:43:13,431 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:43:13,431 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:43:13,431 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:43:13,447 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 12:43:13,970 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 12:43:14,047 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 12:43:14,076 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 12:57:10,731 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 12:57:11,406 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 12:57:11,628 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 12:57:11,680 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 12:57:11,744 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 12:57:11,750 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 12:57:11,760 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 12:57:11,846 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 12:57:11,998 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:57:12,099 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:57:12,813 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 12:57:12,897 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:57:12,898 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:57:12,902 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:57:12,917 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 12:57:12,931 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:57:12,932 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:57:12,988 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:57:12,988 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:57:12,989 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:57:13,066 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-16 12:58:12,989 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 12:58:13,632 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 12:58:13,804 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 12:58:13,874 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 12:58:13,964 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 12:58:13,975 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 12:58:13,999 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 12:58:14,156 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 12:58:14,279 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:58:14,365 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 12:58:15,171 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 12:58:15,249 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:58:15,250 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:58:15,252 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:58:15,265 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 12:58:15,278 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:58:15,279 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:58:15,325 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 12:58:15,326 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 12:58:15,327 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 12:58:15,380 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-16 13:01:35,475 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 13:01:35,609 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 13:01:35,679 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 13:01:36,555 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 13:01:36,570 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 13:01:36,577 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 13:01:36,595 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-16 13:01:36,652 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 13:01:36,726 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 13:01:36,726 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 13:01:36,727 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 13:01:36,732 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 13:01:36,739 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 13:01:36,739 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 13:01:36,758 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 13:01:36,758 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 13:01:36,759 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 13:01:36,777 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 13:01:37,268 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 13:01:37,336 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 13:01:37,363 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 13:01:59,084 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 13:01:59,235 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 13:01:59,325 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 13:02:00,350 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 13:02:00,364 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 13:02:00,368 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 13:02:00,386 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-16 13:02:00,433 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 13:02:00,512 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 13:02:00,512 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 13:02:00,513 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 13:02:00,518 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 13:02:00,524 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 13:02:00,525 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 13:02:00,549 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 13:02:00,550 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 13:02:00,551 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 13:02:00,571 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 13:02:01,106 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 13:02:01,174 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 13:02:01,204 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 13:47:50,245 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 13:47:50,373 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 13:47:50,474 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 13:47:51,419 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 13:47:51,435 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 13:47:51,439 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 13:47:51,455 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-16 13:47:51,497 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 13:47:51,566 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 13:47:51,566 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 13:47:51,566 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 13:47:51,572 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 13:47:51,578 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 13:47:51,579 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 13:47:51,597 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 13:47:51,598 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 13:47:51,599 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 13:47:51,622 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 13:47:52,062 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 13:47:52,151 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 13:47:52,178 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 14:09:25,948 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 14:09:26,129 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 14:09:26,229 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 14:09:27,157 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 14:09:27,170 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 14:09:27,176 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 14:09:27,196 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-16 14:09:27,237 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 14:09:27,292 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 14:09:27,293 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 14:09:27,294 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 14:09:27,301 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 14:09:27,306 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 14:09:27,307 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 14:09:27,333 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 14:09:27,334 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 14:09:27,335 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 14:09:27,357 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 14:09:27,813 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 14:09:27,876 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 14:09:27,898 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 14:14:01,245 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 14:14:01,400 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 14:14:01,485 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 14:14:02,588 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 14:14:02,599 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 14:14:02,604 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 14:14:02,621 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..
+2020-04-16 14:14:02,664 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 14:14:02,723 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 14:14:02,724 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 14:14:02,724 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 14:14:02,730 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 14:14:02,737 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 14:14:02,738 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 14:14:02,757 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 14:14:02,757 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 14:14:02,758 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 14:14:02,782 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 14:14:03,299 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 14:14:03,386 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 14:14:03,417 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 14:28:44,173 INFO  main
+				com.employeemngt.controller.DepartmentController: update employee by ID : null
+2020-04-16 14:28:45,033 INFO  main
+				com.employeemngt.controller.DepartmentController: adding employee data
+2020-04-16 14:28:45,273 INFO  main
+				com.employeemngt.controller.EmployeeController: update employee by ID : 12
+2020-04-16 14:28:45,349 INFO  main
+				com.employeemngt.controller.EmployeeController: adding employee data
+2020-04-16 14:28:45,443 INFO  main
+				com.employeemngt.controller.LeaveController: employee applying leaves 
+2020-04-16 14:28:45,450 INFO  main
+				com.employeemngt.controller.LeaveController: update leave for employee ID : %S
+2020-04-16 14:28:45,463 INFO  main
+				com.employeemngt.controller.LeaveController: adding leaves to eployee 
+2020-04-16 14:28:45,580 INFO  main
+				com.employeemngt.controller.ReportController: downloadReport In Excel
+2020-04-16 14:28:45,774 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 14:28:45,868 INFO  main
+				com.employeemngt.service.impl.DepartmentServiceImpl: Checking Requested Depart is Assigned to any employee
+2020-04-16 14:28:46,609 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: moving employee to history
+2020-04-16 14:28:46,680 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 14:28:46,682 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 14:28:46,683 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 14:28:46,694 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: Fetching all employee
+2020-04-16 14:28:46,706 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 14:28:46,707 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 14:28:46,743 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee address
+2020-04-16 14:28:46,743 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee department
+2020-04-16 14:28:46,744 INFO  main
+				com.employeemngt.service.impl.EmployeeServiceImpl: adding employee
+2020-04-16 14:28:46,794 INFO  main
+				com.employeemngt.service.impl.LeaveServiceImpl: Applying Leaves..

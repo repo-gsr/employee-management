@@ -164,7 +164,7 @@ public class ReportServiceImpl implements ReportService {
 			logger.info(e.getLocalizedMessage(), e);
 		}
 	}
-
+	
 	public void writeData(List<EmployeeCSVReportData> employees, StatefulBeanToCsv<EmployeeCSVReportData> btcsv) {
 		try {
 			btcsv.write(employees);

@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletResponse;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -37,6 +39,9 @@ public class ReportServiceImplTest {
 
 	@Mock
 	MockHttpServletResponse response;
+	
+	@Mock
+	HttpServletResponse responseh;
 
 	@Mock
 	ServletOutputStream servletOutputStream;
@@ -98,7 +103,7 @@ public class ReportServiceImplTest {
 		employees.add(employee);
 		when(employeerepository.findAll()).thenReturn(employees);
 		when(response.getOutputStream()).thenReturn(servletOutputStream);
-		//reportServiceImpl.downloadReportInCsv(response);
+		//reportServiceImpl.downloadReportInCsv(responseh);
 	}
 
 }

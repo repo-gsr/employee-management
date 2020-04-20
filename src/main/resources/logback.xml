@@ -30,7 +30,7 @@
 
 
 	<logger name="com.employeemngt" level="trace" additivity="false">
-		<appender-ref ref="RollingFile" />
+		<!-- <appender-ref ref="RollingFile" /> -->
 		<appender-ref ref="Console" />
 	</logger>
 
