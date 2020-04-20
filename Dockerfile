@@ -7,6 +7,6 @@ VOLUME /tmp
 
 EXPOSE 8081
 
-COPY target/employee-management-9.0.jar employee_management.jar
+COPY target/employee-management-*.jar employee_management.jar
 
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/employee_management.jar"]
